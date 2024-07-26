@@ -4,59 +4,77 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="105" width="363" height="539" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="115" width="363" height="1047" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="31" y="105" width="363" height="539" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="41" y="115" width="363" height="619" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;中央consul监听&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="135.5" y="105" width="142" height="34" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;中央consul监听&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="145.5" y="115" width="142" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-7" value="HandlerDomainNameKeyPrefixChanged&lt;div&gt;监听中央consul /domain/{domainName}/current&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="45" y="160" width="327" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-21" value="HandlerDomainNameKeyPrefixChanged&lt;div&gt;监听中央consul /domain/{domainName}/current&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="170" width="327" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-8" value="HandlerRBACRelationKeyPrefixChanged&lt;div&gt;监听中央consul /rbac_relation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="43" y="241" width="327" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-22" value="HandlerRBACRelationKeyPrefixChanged&lt;div&gt;监听中央consul /rbac_relation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="53" y="251" width="327" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-9" value="HandlerRBACNotesKeyPrefixChanged&lt;div&gt;监听中央consul /rbac_notes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="45" y="322" width="327" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-23" value="HandlerRBACNotesKeyPrefixChanged&lt;div&gt;监听中央consul /rbac_notes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="332" width="327" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-10" value="HandlerRBACInfoKeyPrefixChanged&lt;div&gt;监听中央consul /rbac_info&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="45" y="403" width="327" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-24" value="HandlerRBACInfoKeyPrefixChanged&lt;div&gt;监听中央consul /rbac_info&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="413" width="327" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-11" value="HandlerBasicServicesChanged&lt;div&gt;监听中央consul基础服务变化&lt;/div&gt;&lt;div&gt;（ratelimit、xds-server、jaeger- collector）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="45" y="484" width="327" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-25" value="HandlerDomainConsulServerChanged&lt;div&gt;监听中央consul中域consul节点变化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="494" width="327" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-12" value="HandlerGatewayServicesChanged&lt;div&gt;监听中央consul gateway服务变化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="43" y="565" width="327" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-26" value="HandlerGatewayServicesChanged&lt;div&gt;监听中央consul gateway服务变化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="53" y="575" width="327" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-13" value="如有变化，标记域内所有系统边车需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="439" y="160" width="325" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-27" value="如有变化，标记域内所有系统边车需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="449" y="170" width="325" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-15" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;校验更新&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="556.5" y="105" width="90" height="34" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-28" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;校验更新&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="566.5" y="115" width="90" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-16" value="如有变化，标记gateway需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="439" y="241" width="325" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-29" value="如有变化，标记gateway需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="449" y="251" width="325" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-17" value="如有变化，标记gateway、相关系统边车需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="437" y="322" width="325" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-30" value="如有变化，标记gateway、相关系统边车需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="447" y="332" width="325" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-18" value="如有变化，标记gateway、相关系统边车需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="435" y="403" width="325" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-31" value="如有变化，标记gateway、相关系统边车需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="445" y="413" width="325" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="31" y="664" width="363" height="539" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-32" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="41" y="781" width="363" height="383" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;域consul监听&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="146.5" y="664" width="124" height="34" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-33" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;域consul监听&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="159.5" y="781" width="124" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-21" value="更新域consul kv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="435" y="484" width="325" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-34" value="重启" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="445" y="494" width="325" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MtAjiL5NKAA9mcgFVmzM-22" value="如有变化，标记gateway、相关系统边车需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="433" y="565" width="325" height="60" as="geometry" />
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-35" value="如有变化，标记gateway、相关系统边车需要更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="443" y="575" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-36" value="HandlerDomainServicesChanged&lt;div&gt;监听域consul服务列表变化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="58" y="825" width="327" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-37" value="HandlerADomainServicesChanged&lt;div&gt;监听域consul各个服务的节点变化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="58" y="900" width="327" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-38" value="HandlerADomainServicesChanged&lt;div&gt;监听域consul各个服务的节点变化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="58" y="975" width="327" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-39" value="HandlerADomainServicesChanged&lt;div&gt;监听域consul各个服务的节点变化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="1050" width="327" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-40" value="HandlerBasicServicesChanged&lt;div&gt;监听中央consul基础服务变化&lt;/div&gt;&lt;div&gt;（ratelimit、xds-server、jaeger- collector）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="53" y="650" width="327" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EZywMufn7TkfM5jbNu8Y-41" value="更新域consul kv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="447" y="656" width="325" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
