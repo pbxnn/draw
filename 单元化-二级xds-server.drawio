@@ -177,8 +177,14 @@
         <mxCell id="PR1iEAXjHN894slTSxPr-7" value="UpdateRatelimitConfig" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="1621" width="175" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PR1iEAXjHN894slTSxPr-10" target="PR1iEAXjHN894slTSxPr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PR1iEAXjHN894slTSxPr-10" target="PR1iEAXjHN894slTSxPr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PR1iEAXjHN894slTSxPr-10" value="更新域gateway配置" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="422" y="1777" width="185" height="60" as="geometry" />
+          <mxGeometry x="290" y="1777" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PR1iEAXjHN894slTSxPr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PR1iEAXjHN894slTSxPr-13" target="PR1iEAXjHN894slTSxPr-21">
           <mxGeometry relative="1" as="geometry" />
@@ -187,7 +193,7 @@
           <mxGeometry x="621.5" y="1777" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PR1iEAXjHN894slTSxPr-14" value="更新中央consul kv系统列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="820" y="1777" width="185" height="60" as="geometry" />
+          <mxGeometry x="969" y="1777" width="185" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PR1iEAXjHN894slTSxPr-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PR1iEAXjHN894slTSxPr-19" target="PR1iEAXjHN894slTSxPr-27">
           <mxGeometry relative="1" as="geometry" />
@@ -214,14 +220,61 @@
         <mxCell id="PR1iEAXjHN894slTSxPr-21" value="从域consul读取灰度系统列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="627.25" y="1879" width="173.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PR1iEAXjHN894slTSxPr-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="423" y="1907" width="120" height="60" as="geometry" />
+        <mxCell id="PR1iEAXjHN894slTSxPr-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PR1iEAXjHN894slTSxPr-27" target="PR1iEAXjHN894slTSxPr-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-47" value="配置下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PR1iEAXjHN894slTSxPr-42">
+          <mxGeometry x="-0.175" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PR1iEAXjHN894slTSxPr-27" value="生成单元化系统边车配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="627.25" y="2101" width="173.5" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PR1iEAXjHN894slTSxPr-30" target="PR1iEAXjHN894slTSxPr-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-48" value="配置下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PR1iEAXjHN894slTSxPr-44">
+          <mxGeometry x="-0.0417" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PR1iEAXjHN894slTSxPr-30" value="生成老版本系统边车配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="852" y="2101" width="173.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PR1iEAXjHN894slTSxPr-33" target="PR1iEAXjHN894slTSxPr-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-45" value="配置下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PR1iEAXjHN894slTSxPr-38">
+          <mxGeometry x="-0.1417" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-33" value="生成系统gateway配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="181" y="2101" width="173.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PR1iEAXjHN894slTSxPr-34" target="PR1iEAXjHN894slTSxPr-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-46" value="配置下发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PR1iEAXjHN894slTSxPr-40">
+          <mxGeometry x="-0.075" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-34" value="生成域gateway配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="404" y="2101" width="173.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-37" value="带系统标签的gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="181" y="2241" width="173.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-39" value="现有老版本gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="404" y="2241" width="173.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-41" value="灰度系统边车" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="627.25" y="2241" width="173.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PR1iEAXjHN894slTSxPr-43" value="非灰度系统边车" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="852" y="2241" width="173.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
