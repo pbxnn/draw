@@ -139,20 +139,20 @@
             <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OKBegjcIMa7sVDoLXa8-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7OKBegjcIMa7sVDoLXa8-82" target="7OKBegjcIMa7sVDoLXa8-92">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7OKBegjcIMa7sVDoLXa8-104" value="返回配置数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7OKBegjcIMa7sVDoLXa8-103">
-          <mxGeometry x="0.0281" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7OKBegjcIMa7sVDoLXa8-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7OKBegjcIMa7sVDoLXa8-87" target="7OKBegjcIMa7sVDoLXa8-92">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="584" y="537" />
               <mxPoint x="584" y="655" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7OKBegjcIMa7sVDoLXa8-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7OKBegjcIMa7sVDoLXa8-82" target="7OKBegjcIMa7sVDoLXa8-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OKBegjcIMa7sVDoLXa8-104" value="返回配置数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7OKBegjcIMa7sVDoLXa8-103">
+          <mxGeometry x="0.0281" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
