@@ -530,12 +530,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fOyq2P_4UuuTp70A75Qr" name="第 2 页">
-    <mxGraphModel dx="604" dy="1038" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1190" dy="1410" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="38ywVsSI_jVLe3f0NVeH-255" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="409" y="-154" width="1601" height="695" as="geometry" />
+          <mxGeometry x="409" y="-154" width="1780" height="695" as="geometry" />
         </mxCell>
         <mxCell id="38ywVsSI_jVLe3f0NVeH-256" value="中央consul Watch" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="409" y="-154" width="280" height="60" as="geometry" />
@@ -692,6 +692,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="38ywVsSI_jVLe3f0NVeH-276" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="38ywVsSI_jVLe3f0NVeH-264" target="38ywVsSI_jVLe3f0NVeH-275">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="38ywVsSI_jVLe3f0NVeH-264" value="从中央consul获取&lt;div&gt;下述服务的健康节点信息&lt;/div&gt;&lt;div&gt;jaeger-collector&lt;/div&gt;&lt;div&gt;statsd-exporter&lt;/div&gt;&lt;div&gt;ratelimit&lt;/div&gt;&lt;div&gt;xds-server&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1150" y="78" width="171" height="102" as="geometry" />
         </mxCell>
@@ -706,6 +709,27 @@
         </mxCell>
         <mxCell id="38ywVsSI_jVLe3f0NVeH-272" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.31;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="38ywVsSI_jVLe3f0NVeH-264" target="38ywVsSI_jVLe3f0NVeH-268">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38ywVsSI_jVLe3f0NVeH-280" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="38ywVsSI_jVLe3f0NVeH-275" target="38ywVsSI_jVLe3f0NVeH-279">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38ywVsSI_jVLe3f0NVeH-275" value="更新域consul kv&lt;div&gt;/${domain}/basic_services_info&lt;/div&gt;&lt;div&gt;${domain}/basic_services_hosts&lt;/div&gt;&lt;div&gt;${domain}/basic_services_hosts_tags&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1381" y="92" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="38ywVsSI_jVLe3f0NVeH-282" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="38ywVsSI_jVLe3f0NVeH-279" target="38ywVsSI_jVLe3f0NVeH-281">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38ywVsSI_jVLe3f0NVeH-279" value="若ratelimit节点变化" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1646" y="114" width="141" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38ywVsSI_jVLe3f0NVeH-284" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="38ywVsSI_jVLe3f0NVeH-281" target="38ywVsSI_jVLe3f0NVeH-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38ywVsSI_jVLe3f0NVeH-281" value="从中央consul kv获取&lt;div&gt;域内系统列表&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1812" y="106.5" width="149" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="38ywVsSI_jVLe3f0NVeH-283" value="更新域内所有系统&lt;div&gt;边车配置&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2010" y="106.5" width="135" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
