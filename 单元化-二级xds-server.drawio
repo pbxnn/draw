@@ -530,7 +530,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fOyq2P_4UuuTp70A75Qr" name="第 2 页">
-    <mxGraphModel dx="963" dy="1266" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1068" dy="1332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1118,8 +1118,14 @@
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-31" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="pJn8ihrX1KzE_51yggIc-12" target="sY9-OxEgaEtIqpMbLpiG-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sY9-OxEgaEtIqpMbLpiG-33" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="pJn8ihrX1KzE_51yggIc-12" target="sY9-OxEgaEtIqpMbLpiG-32">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sY9-OxEgaEtIqpMbLpiG-33" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pJn8ihrX1KzE_51yggIc-1" target="sY9-OxEgaEtIqpMbLpiG-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2590" y="1463" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2753" y="330" />
+              <mxPoint x="2700" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-35" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="pJn8ihrX1KzE_51yggIc-12" target="sY9-OxEgaEtIqpMbLpiG-34">
           <mxGeometry relative="1" as="geometry" />
@@ -1128,7 +1134,7 @@
           <mxGeometry x="2724" y="1500" width="171" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pJn8ihrX1KzE_51yggIc-13" value="生成域gateway配置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="2713" y="1758" width="144" height="30" as="geometry" />
+          <mxGeometry x="2729.5" y="2454" width="144" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pJn8ihrX1KzE_51yggIc-28" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="1" source="pJn8ihrX1KzE_51yggIc-18" target="pJn8ihrX1KzE_51yggIc-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1325,11 +1331,20 @@
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-30" value="生成边车配置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="2938.5" y="1378" width="111" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sY9-OxEgaEtIqpMbLpiG-60" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="sY9-OxEgaEtIqpMbLpiG-32" target="sY9-OxEgaEtIqpMbLpiG-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-32" value="生成系统gateway配置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2955" y="1846" width="156" height="30" as="geometry" />
+          <mxGeometry x="2715" y="2601" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sY9-OxEgaEtIqpMbLpiG-62" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="sY9-OxEgaEtIqpMbLpiG-34" target="sY9-OxEgaEtIqpMbLpiG-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sY9-OxEgaEtIqpMbLpiG-64" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="sY9-OxEgaEtIqpMbLpiG-34" target="sY9-OxEgaEtIqpMbLpiG-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-34" value="生成GW-EGRESS配置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="2958.5" y="1682" width="161" height="30" as="geometry" />
+          <mxGeometry x="2953" y="1804" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-45" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="sY9-OxEgaEtIqpMbLpiG-36" target="sY9-OxEgaEtIqpMbLpiG-44">
           <mxGeometry relative="1" as="geometry" />
@@ -1358,8 +1373,8 @@
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-40" value="生成sds配置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="3121" y="1608.5" width="106" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sY9-OxEgaEtIqpMbLpiG-44" value="生成egress cluster" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};direction=south;" vertex="1" parent="1">
-          <mxGeometry x="3324" y="1029" width="30" height="138" as="geometry" />
+        <mxCell id="sY9-OxEgaEtIqpMbLpiG-44" value="生成egress cluster" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="3270" y="1083" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-46" value="遍历服务列表，生成对应的&lt;div&gt;ingress cluster 和 local cluster&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="3253" y="1156" width="198" height="45" as="geometry" />
@@ -1384,6 +1399,15 @@
         </mxCell>
         <mxCell id="sY9-OxEgaEtIqpMbLpiG-57" value="若当前域有DC环境变量，&lt;div&gt;过滤掉其他带DC标签，&lt;/div&gt;&lt;div&gt;且DC不同的gateway节点&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3645" y="1258" width="176" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="sY9-OxEgaEtIqpMbLpiG-59" value="配置数据与域gateway相同" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2939" y="2601" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sY9-OxEgaEtIqpMbLpiG-61" value="cds、lds、sds、rds-egress与边车相同" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="3150.5" y="1726" width="244" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sY9-OxEgaEtIqpMbLpiG-63" value="生成rds ingress配置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="3166" y="1858" width="146" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
