@@ -1725,10 +1725,44 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_w02lmXmkwiedBzuYJrI" name="https">
-    <mxGraphModel dx="954" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZTedUOetvzQMB0A_XkZ-1" target="FZTedUOetvzQMB0A_XkZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-1" value="域/系统gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FZTedUOetvzQMB0A_XkZ-2" target="FZTedUOetvzQMB0A_XkZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="FZTedUOetvzQMB0A_XkZ-2" target="FZTedUOetvzQMB0A_XkZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-11" value="&lt;font color=&quot;#006633&quot;&gt;若域https开关关闭。边车到egress gateway的cds走19211端口，http&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#006633&quot;&gt;若域https开关打开。边车到egress gateway的cds走19212端口，https&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZTedUOetvzQMB0A_XkZ-8">
+          <mxGeometry x="-0.0084" relative="1" as="geometry">
+            <mxPoint y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-2" value="边车" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FZTedUOetvzQMB0A_XkZ-4" target="FZTedUOetvzQMB0A_XkZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-13" value="localhost:19001" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FZTedUOetvzQMB0A_XkZ-12">
+          <mxGeometry x="0.076" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-4" value="应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FZTedUOetvzQMB0A_XkZ-7" value="&lt;b&gt;egress gateway&lt;/b&gt;&lt;div&gt;同时监听19211、19212端口&lt;/div&gt;&lt;div&gt;支持http、https&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="133" y="325" width="230" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
