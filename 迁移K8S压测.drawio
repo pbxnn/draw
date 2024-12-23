@@ -1,9 +1,34 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="0IrNA74SF8a2gA933yZ-">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LBQWDAX3f1M0i9mrP34r-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBQWDAX3f1M0i9mrP34r-1" target="LBQWDAX3f1M0i9mrP34r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBQWDAX3f1M0i9mrP34r-1" value="网格gateway&lt;div&gt;（单节点/8C/2G）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LBQWDAX3f1M0i9mrP34r-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LBQWDAX3f1M0i9mrP34r-2" target="LBQWDAX3f1M0i9mrP34r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBQWDAX3f1M0i9mrP34r-2" value="网格sidecar&lt;div&gt;（单节点/4C/1G）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="433" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LBQWDAX3f1M0i9mrP34r-4" value="应用&lt;div&gt;（单节点/4c/4g）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LBQWDAX3f1M0i9mrP34r-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="LBQWDAX3f1M0i9mrP34r-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBQWDAX3f1M0i9mrP34r-8" value="压测流量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LBQWDAX3f1M0i9mrP34r-7">
+          <mxGeometry x="-0.2048" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
