@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="第 1 页" id="9Li6IN2-fdfVNfoZi-YO">
-    <mxGraphModel dx="830" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="712" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry x="20" y="43" width="80" height="27" as="geometry" />
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="137" y="140" width="604" height="200" as="geometry" />
+          <mxGeometry x="137" y="140" width="604" height="166" as="geometry" />
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-1" value="域gateway&lt;div&gt;系统gateway&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="163" y="158" width="120" height="60" as="geometry" />
@@ -57,9 +57,6 @@
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-8" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="585" y="231" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gm98-_d_66KDWPCI6MxP-19" value="控制面（运行态）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="137" y="314" width="604" height="26" as="geometry" />
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-22" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="268" y="354" width="248" height="249" as="geometry" />
@@ -114,6 +111,15 @@
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-41" value="升级后自动检测服务状态&lt;div&gt;（gateway、consul-server、&lt;/div&gt;&lt;div&gt;xds-server等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-33">
           <mxGeometry x="22" y="111" width="169" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-49" value="域consul" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298" y="657" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-50" value="OB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="451" y="654" width="119" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-51" value="中央consul" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="148" y="657" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
