@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="第 1 页" id="9Li6IN2-fdfVNfoZi-YO">
-    <mxGraphModel>
+    <mxGraphModel dx="1122" dy="712" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gm98-_d_66KDWPCI6MxP-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="137" y="353" width="120" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-15">
+          <mxGeometry width="120" height="247.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-14" value="概览" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-15">
+          <mxGeometry y="204.46808510638297" width="120" height="42.212765957446805" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-10" value="部署位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-15">
+          <mxGeometry x="20" y="75.5" width="80" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-11" value="镜像版本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-15">
+          <mxGeometry x="20" y="110.5" width="80" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-12" value="环境变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-15">
+          <mxGeometry x="20" y="145.5" width="80" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-16" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-15">
+          <mxGeometry x="41" y="170.47000000000003" width="33" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-17" value="域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-15">
+          <mxGeometry x="20" y="8" width="80" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-18" value="系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-15">
+          <mxGeometry x="20" y="43" width="80" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137" y="160" width="604" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-1" value="域gateway&lt;div&gt;系统gateway&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="187" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-2" value="&amp;nbsp;sidecar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-3" value="中央consul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="187" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-4" value="域consul" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="453" y="187" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-5" value="ratelimit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="583" y="187" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-6" value="一级xds-server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-7" value="二级xds-server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="453" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-8" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="583" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
