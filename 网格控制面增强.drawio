@@ -58,8 +58,17 @@
         <mxCell id="gm98-_d_66KDWPCI6MxP-8" value="redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="585" y="231" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gm98-_d_66KDWPCI6MxP-19" value="控制面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gm98-_d_66KDWPCI6MxP-19" value="控制面（运行态）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="137" y="314" width="604" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="269" y="353" width="248" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-22">
+          <mxGeometry width="248" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="gm98-_d_66KDWPCI6MxP-21" value="运维" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-22">
+          <mxGeometry y="204" width="248" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
