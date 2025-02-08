@@ -112,6 +112,9 @@
         <mxCell id="bX5g6yc0hT_BCWHH6CZx-1" value="服务调用依赖查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-33">
           <mxGeometry x="22" y="111" width="170" height="27" as="geometry" />
         </mxCell>
+        <mxCell id="bX5g6yc0hT_BCWHH6CZx-2" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;...&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-33">
+          <mxGeometry x="91" y="158" width="33" height="34" as="geometry" />
+        </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-49" value="域consul" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="256" y="716" width="120" height="60" as="geometry" />
         </mxCell>
