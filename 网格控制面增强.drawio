@@ -74,10 +74,10 @@
           <mxGeometry x="7" y="7" width="80" height="27" as="geometry" />
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-27" value="gateway摘流量" style="rounded=0;whiteSpace=wrap;html=1;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
-          <mxGeometry x="7" y="74" width="86" height="27" as="geometry" />
+          <mxGeometry x="7" y="84" width="86" height="27" as="geometry" />
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-26" value="sidecar&lt;div&gt;优雅退出&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
-          <mxGeometry x="7" y="111" width="87" height="35" as="geometry" />
+          <mxGeometry x="7" y="120" width="87" height="35" as="geometry" />
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-25" value="域consul升级" style="rounded=0;whiteSpace=wrap;html=1;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
           <mxGeometry x="125" y="7" width="80" height="27" as="geometry" />
@@ -85,17 +85,14 @@
         <mxCell id="gm98-_d_66KDWPCI6MxP-24" value="gateway升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
           <mxGeometry x="7" y="41" width="80" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="gm98-_d_66KDWPCI6MxP-29" value="一级xds-server升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
+        <mxCell id="gm98-_d_66KDWPCI6MxP-29" value="xds-server升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
           <mxGeometry x="125" y="41" width="115" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="gm98-_d_66KDWPCI6MxP-30" value="二级xds-server升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
-          <mxGeometry x="125" y="74" width="115" height="27" as="geometry" />
+        <mxCell id="gm98-_d_66KDWPCI6MxP-31" value="ratelimit/redis升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
+          <mxGeometry x="125" y="84" width="113" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="gm98-_d_66KDWPCI6MxP-31" value="ratelimit升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
-          <mxGeometry x="125" y="111" width="80" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="gm98-_d_66KDWPCI6MxP-32" value="redis升级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
-          <mxGeometry x="125" y="148" width="80" height="27" as="geometry" />
+        <mxCell id="gm98-_d_66KDWPCI6MxP-41" value="升级后自动检测服务状态&lt;div&gt;（gateway、consul、&lt;/div&gt;&lt;div&gt;xds-server等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="gm98-_d_66KDWPCI6MxP-22" vertex="1">
+          <mxGeometry x="101" y="120" width="139" height="71" as="geometry" />
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-33" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="486" y="360" width="214" height="249" as="geometry" />
@@ -112,8 +109,8 @@
         <mxCell id="gm98-_d_66KDWPCI6MxP-36" value="网络连通性检测" style="rounded=0;whiteSpace=wrap;html=1;" parent="gm98-_d_66KDWPCI6MxP-33" vertex="1">
           <mxGeometry x="22" y="14" width="170" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="gm98-_d_66KDWPCI6MxP-41" value="升级后自动检测服务状态&lt;div&gt;（gateway、consul-server、&lt;/div&gt;&lt;div&gt;xds-server等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="gm98-_d_66KDWPCI6MxP-33" vertex="1">
-          <mxGeometry x="22" y="111" width="169" height="51" as="geometry" />
+        <mxCell id="bX5g6yc0hT_BCWHH6CZx-1" value="服务调用依赖查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gm98-_d_66KDWPCI6MxP-33">
+          <mxGeometry x="22" y="111" width="170" height="27" as="geometry" />
         </mxCell>
         <mxCell id="gm98-_d_66KDWPCI6MxP-49" value="域consul" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="256" y="716" width="120" height="60" as="geometry" />
