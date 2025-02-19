@@ -251,8 +251,13 @@
             <mxPoint x="-1" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0UflZhBj0dWLjfYwgBvR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0UflZhBj0dWLjfYwgBvR-33" target="0UflZhBj0dWLjfYwgBvR-45">
+        <mxCell id="0UflZhBj0dWLjfYwgBvR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0UflZhBj0dWLjfYwgBvR-33" target="0UflZhBj0dWLjfYwgBvR-45">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0UflZhBj0dWLjfYwgBvR-53" value="通过容器IP查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0UflZhBj0dWLjfYwgBvR-47">
+          <mxGeometry x="0.0004" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0UflZhBj0dWLjfYwgBvR-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0UflZhBj0dWLjfYwgBvR-33" target="0UflZhBj0dWLjfYwgBvR-46">
           <mxGeometry relative="1" as="geometry" />
