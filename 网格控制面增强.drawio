@@ -333,31 +333,31 @@
           <mxGeometry x="2913" y="-498" width="683" height="213" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="2159" y="-1280" width="365" height="546" as="geometry" />
+          <mxGeometry x="2159" y="-1280" width="365" height="524" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-8" value="gateway&lt;div&gt;灰度升级&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2182" y="-1228" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-9" value="运维" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="-793" width="364" height="60" as="geometry" />
+          <mxGeometry x="2160" y="-816" width="364" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="2538" y="-1281" width="365" height="547" as="geometry" />
+          <mxGeometry x="2538" y="-1281" width="365" height="525" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-11" value="gateway&lt;div&gt;运行大盘&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2561" y="-1229" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-12" value="监控" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2539" y="-793" width="364" height="60" as="geometry" />
+          <mxGeometry x="2539" y="-816" width="364" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-13" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="2917" y="-1280" width="365" height="546" as="geometry" />
+          <mxGeometry x="2917" y="-1280" width="365" height="521" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-14" value="智能化运营报告" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2940" y="-1228" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WNJtWGPR714hFgyhEmNJ-15" value="运营" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2918" y="-795" width="364" height="60" as="geometry" />
+          <mxGeometry x="2918" y="-818" width="364" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BFFr8cgO3dZWKdqWFNjG-1" value="边车自动化运维" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2361" y="-1227" width="120" height="60" as="geometry" />
