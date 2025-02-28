@@ -356,7 +356,7 @@
         <mxCell id="BFFr8cgO3dZWKdqWFNjG-4" value="流水日志优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2714" y="-1156" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BFFr8cgO3dZWKdqWFNjG-5" value="交易量大盘优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BFFr8cgO3dZWKdqWFNjG-5" value="交易量统计优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2562" y="-1154" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BFFr8cgO3dZWKdqWFNjG-6" value="智能客服" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
