@@ -940,6 +940,48 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-254" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="2407" y="-909" width="745" height="281" as="geometry" />
         </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-257" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="je_rRdqIXx3PYmjw4o95-255" target="je_rRdqIXx3PYmjw4o95-256">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-263" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="je_rRdqIXx3PYmjw4o95-255" target="je_rRdqIXx3PYmjw4o95-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-264" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="je_rRdqIXx3PYmjw4o95-255" target="je_rRdqIXx3PYmjw4o95-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-255" value="GW" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3585" y="-87" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-256" value="系统边车" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3785" y="-87" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-258" value="域xds-server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3785" y="13" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-259" value="中央consul" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3788" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-260" value="域consul" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3788" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-261" value="其他系统GW" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3790" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-266" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="je_rRdqIXx3PYmjw4o95-265" target="je_rRdqIXx3PYmjw4o95-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-267" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="je_rRdqIXx3PYmjw4o95-265" target="je_rRdqIXx3PYmjw4o95-259">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-268" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="je_rRdqIXx3PYmjw4o95-265" target="je_rRdqIXx3PYmjw4o95-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-269" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="je_rRdqIXx3PYmjw4o95-265" target="je_rRdqIXx3PYmjw4o95-261">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-265" value="系统边车" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3553" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
