@@ -670,6 +670,9 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-122" value="关联部署环境" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="3947" y="-737" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-134" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="833" y="312" width="1153" height="131" as="geometry" />
+        </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-126" value="" style="group;rounded=0;fontStyle=1" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2428" y="-1043" width="90" height="71" as="geometry" />
         </mxCell>
@@ -685,25 +688,22 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-130" value="平台类型&lt;br&gt;&lt;div&gt;（cattle、k8s）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1388" y="334" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-131" value="&lt;br&gt;&lt;div&gt;域&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="je_rRdqIXx3PYmjw4o95-131" value="&lt;div&gt;域&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1569" y="335" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-132" value="系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1702" y="334" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-134" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="833" y="312" width="1153" height="131" as="geometry" />
-        </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-133" value="镜像版本" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1840" y="335" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-136" value="下拉框筛选取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="je_rRdqIXx3PYmjw4o95-136" value="下拉框筛选" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="833" y="311" width="120" height="131" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-137" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="829" y="507" width="1161" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-138" value="统计卡片区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="je_rRdqIXx3PYmjw4o95-138" value="统计卡片区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="829" y="506" width="120" height="131" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-139" value="gateway节点总数：xxx&lt;div&gt;健康：xx/异常：xx&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
@@ -718,13 +718,13 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-142" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="830" y="674" width="1162" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-143" value="统计图标区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="je_rRdqIXx3PYmjw4o95-143" value="统计图表区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="830" y="673" width="120" height="131" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-144" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="831" y="837" width="1161" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-145" value="节点列表区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="je_rRdqIXx3PYmjw4o95-145" value="节点列表区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="831" y="836" width="120" height="131" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-146" value="信创、非信创环境GW数量比例&lt;div&gt;（饼图）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
@@ -748,14 +748,14 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-152" value="绑定主机端口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1236" y="868" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-153" value="部署环境" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="je_rRdqIXx3PYmjw4o95-153" value="PaaS部署环境" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1367" y="866" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-154" value="镜像版本" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1496" y="865" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-155" value="操作&lt;div&gt;（摘流量等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1635" y="863" width="115" height="60" as="geometry" />
+        <mxCell id="je_rRdqIXx3PYmjw4o95-155" value="操作&lt;div&gt;（摘流量、升级等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1848" y="863" width="138" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-157" value="GW&lt;div&gt;运&lt;/div&gt;&lt;div&gt;行&lt;/div&gt;&lt;div&gt;大&lt;/div&gt;&lt;div&gt;盘&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="760" y="291" width="57" height="712" as="geometry" />
@@ -981,6 +981,9 @@
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-265" value="系统边车" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3553" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6F-gcUOa1MX5rlUZ5tcR-1" value="节点详情" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="862" width="115" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
