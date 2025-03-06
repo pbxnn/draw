@@ -754,8 +754,8 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-154" value="镜像版本" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1496" y="865" width="115" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-155" value="操作&lt;div&gt;（摘流量、升级等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1848" y="863" width="138" height="60" as="geometry" />
+        <mxCell id="je_rRdqIXx3PYmjw4o95-155" value="操作&lt;div&gt;（摘流量、升级）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1848" y="866" width="138" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-157" value="GW&lt;div&gt;运&lt;/div&gt;&lt;div&gt;行&lt;/div&gt;&lt;div&gt;大&lt;/div&gt;&lt;div&gt;盘&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="760" y="291" width="57" height="712" as="geometry" />
@@ -983,7 +983,10 @@
           <mxGeometry x="3553" y="249" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6F-gcUOa1MX5rlUZ5tcR-1" value="节点详情" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="862" width="115" height="60" as="geometry" />
+          <mxGeometry x="1727" y="866" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6F-gcUOa1MX5rlUZ5tcR-2" value="&lt;div&gt;网格域&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1618" y="865" width="98" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
