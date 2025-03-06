@@ -922,8 +922,8 @@
             <mxPoint x="3168" y="-1153" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XzwsRs2-bjMbc0C5ywwn-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;交付平台&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2799" y="-1199" width="114" height="41" as="geometry" />
+        <mxCell id="XzwsRs2-bjMbc0C5ywwn-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;基于交付平台&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2775" y="-1199" width="162" height="41" as="geometry" />
         </mxCell>
         <mxCell id="XzwsRs2-bjMbc0C5ywwn-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="819" y="1022" width="1189" height="713" as="geometry" />
