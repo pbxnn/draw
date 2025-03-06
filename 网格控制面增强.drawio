@@ -443,9 +443,6 @@
         <mxCell id="fTzek5KVbZ6QtDI809jQ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="818" y="290" width="1189" height="713" as="geometry" />
         </mxCell>
-        <mxCell id="fTzek5KVbZ6QtDI809jQ-3" value="地域&lt;div&gt;（上海、北京）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1058" y="336" width="129" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-7" value="" style="group;rounded=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2187" y="614" width="77" height="83" as="geometry" />
         </mxCell>
@@ -643,6 +640,9 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-87" value="prometheus监控" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" parent="je_rRdqIXx3PYmjw4o95-88" vertex="1">
           <mxGeometry y="75" width="105" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="je_rRdqIXx3PYmjw4o95-134" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="833" y="310" width="1153" height="131" as="geometry" />
+        </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-232" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="je_rRdqIXx3PYmjw4o95-98" target="je_rRdqIXx3PYmjw4o95-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -658,9 +658,6 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-120" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;产品团队&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;fontStyle=1" parent="je_rRdqIXx3PYmjw4o95-118" vertex="1">
           <mxGeometry x="-12" y="45" width="90" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-134" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="833" y="312" width="1153" height="131" as="geometry" />
-        </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-126" value="" style="group;rounded=0;fontStyle=1" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2428" y="-1043" width="90" height="71" as="geometry" />
         </mxCell>
@@ -671,19 +668,19 @@
           <mxGeometry y="36.999878765836264" width="90" height="34" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-129" value="隔离域&lt;br&gt;&lt;div&gt;（非信创、hcs、acs、jdg）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="335" width="160" height="60" as="geometry" />
+          <mxGeometry x="1157" y="337" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-130" value="平台类型&lt;br&gt;&lt;div&gt;（cattle、k8s）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1388" y="334" width="160" height="60" as="geometry" />
+          <mxGeometry x="1335" y="336" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-131" value="&lt;div&gt;域&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1569" y="335" width="115" height="60" as="geometry" />
+          <mxGeometry x="1516" y="337" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-132" value="系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1702" y="334" width="115" height="60" as="geometry" />
+          <mxGeometry x="1649" y="336" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-133" value="镜像版本" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1840" y="335" width="115" height="60" as="geometry" />
+          <mxGeometry x="1787" y="337" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-136" value="下拉框筛选" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="833" y="311" width="120" height="131" as="geometry" />
@@ -694,14 +691,14 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-138" value="统计卡片区" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="829" y="506" width="120" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-139" value="gateway节点总数：xxx&lt;div&gt;健康：xx/异常：xx&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1022" y="546" width="171" height="60" as="geometry" />
+        <mxCell id="je_rRdqIXx3PYmjw4o95-139" value="gateway节点总数：xxx&lt;div&gt;健康：xx&amp;nbsp; /&amp;nbsp; 异常：xx&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1022" y="546" width="199" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-140" value="网格域：xxx" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1235" y="547" width="115" height="60" as="geometry" />
+          <mxGeometry x="1255" y="547" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-141" value="系统数：xxx" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1401" y="548" width="115" height="60" as="geometry" />
+          <mxGeometry x="1457" y="548" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-142" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="830" y="674" width="1162" height="131" as="geometry" />
@@ -716,16 +713,16 @@
           <mxGeometry x="831" y="836" width="120" height="131" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-146" value="信创、非信创环境GW数量比例&lt;div&gt;（饼图）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1028" y="713" width="152" height="60" as="geometry" />
+          <mxGeometry x="990" y="713" width="232" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-147" value="各隔离域GW节点分布情况&lt;div&gt;（柱状图）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="714" width="115" height="60" as="geometry" />
+          <mxGeometry x="1240" y="714" width="213" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-148" value="平台类型占比&lt;div&gt;（饼图）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1413" y="713" width="115" height="60" as="geometry" />
+          <mxGeometry x="1480" y="715" width="206" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-149" value="镜像版本分布情况&lt;div&gt;（柱状图）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1576" y="712" width="149" height="60" as="geometry" />
+          <mxGeometry x="1716" y="712" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-150" value="节点名称" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="984" y="868" width="115" height="60" as="geometry" />
@@ -1002,6 +999,9 @@
         </mxCell>
         <mxCell id="XzwsRs2-bjMbc0C5ywwn-30" value="&lt;div&gt;1. 当前容器居中，与域内各系统连线表示网络连通性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 点击系统，展示当前容器和系统内各服务网络连通性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 点击服务，展示当前容器和服务内各节点的连通性&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 连线颜色及状态：&lt;/div&gt;&lt;div&gt;绿色=正常，黄色=部分阻断，红色=阻断，灰色=未检测&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;5.节点服务较多时，连通性正常的可以合并展示，重点突出异常情况&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1655" y="1255" width="306" height="346" as="geometry" />
+        </mxCell>
+        <mxCell id="fTzek5KVbZ6QtDI809jQ-3" value="地域&lt;div&gt;（上海、北京）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1005" y="338" width="129" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
