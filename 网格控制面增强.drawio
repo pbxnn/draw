@@ -944,7 +944,7 @@
           <mxGeometry x="990" y="1074" width="188" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XzwsRs2-bjMbc0C5ywwn-11" value="容器健康状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1233" y="1075" width="206" height="60" as="geometry" />
+          <mxGeometry x="1204" y="1075" width="235" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XzwsRs2-bjMbc0C5ywwn-12" value="操作区&lt;div&gt;（升级、重启、停止、删除、查看日志、摘流量、变更记录查询等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1461" y="1074" width="506" height="60" as="geometry" />
