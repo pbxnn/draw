@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.9" pages="2">
   <diagram name="第 1 页" id="9Li6IN2-fdfVNfoZi-YO">
-    <mxGraphModel dx="2380" dy="2617" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="1985" dy="2363" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1144,7 +1144,7 @@
         <mxCell id="3pCu0jHaXcnlusvkuPWi-122" value="+点击后新增一个端口映射卡片，同一个节点可绑定多个端口" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2805" y="1599" width="505" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3pCu0jHaXcnlusvkuPWi-123" value="1. 根据选择的网格域，自动生成环境变量，测试一套、生产一套&lt;div&gt;2. 容器资源限制，有默认值，可调整&lt;/div&gt;&lt;div&gt;3.&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="3pCu0jHaXcnlusvkuPWi-123" value="1. 根据选择的网格域，自动生成环境变量，可修改&lt;div&gt;2. 容器资源限制，有默认值，可调整&lt;/div&gt;&lt;div&gt;3. 支持预校验主机端口是否被占用&lt;/div&gt;&lt;div&gt;4. 支持预校验命名空间下资源是否满足部署需求&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="3529" y="1175" width="568" height="382" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-124" value="（选择网格域后，自动生成环境变量，可修改）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;" vertex="1" parent="1">
