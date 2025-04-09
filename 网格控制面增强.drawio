@@ -1148,7 +1148,7 @@
           <mxGeometry x="3529" y="1175" width="568" height="382" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-124" value="（选择网格域后，自动生成环境变量，可修改）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2266" y="1157" width="1153" height="63" as="geometry" />
+          <mxGeometry x="2266" y="1157" width="1126" height="63" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-125" value="环境变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2266" y="1158" width="120" height="62" as="geometry" />
