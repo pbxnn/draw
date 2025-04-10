@@ -1190,25 +1190,25 @@
           <mxGeometry x="2409" y="2370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-164" value="环境" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2535" y="2370" width="80" height="80" as="geometry" />
+          <mxGeometry x="2500" y="2370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-165" value="项目" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2666" y="2370" width="80" height="80" as="geometry" />
+          <mxGeometry x="2593" y="2371" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-166" value="命名空间" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2795" y="2370" width="80" height="80" as="geometry" />
+          <mxGeometry x="2687" y="2371" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3pCu0jHaXcnlusvkuPWi-167" value="容器部署状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="3122" y="2370" width="125" height="80" as="geometry" />
+        <mxCell id="3pCu0jHaXcnlusvkuPWi-167" value="容器部署状态&lt;div&gt;（部署中 / 部署成功 / 部署失败）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2962" y="2370" width="254" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-168" value="端口映射" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="3026" y="2370" width="80" height="80" as="geometry" />
+          <mxGeometry x="2874" y="2370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-169" value="&lt;div&gt;绑定主机&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2917" y="2370" width="80" height="80" as="geometry" />
+          <mxGeometry x="2780" y="2371" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Bgd7_QvUDeLl1gK3HNYK-1" value="网格注册状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="3260" y="2370" width="114" height="80" as="geometry" />
+        <mxCell id="Bgd7_QvUDeLl1gK3HNYK-1" value="网格注册状态&lt;div&gt;（未注册 / 已注册）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="3229" y="2369" width="167" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
