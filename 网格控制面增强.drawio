@@ -1663,11 +1663,36 @@
         <mxCell id="2iba8URM4LscJczZnOEm-292" value="未注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1804" y="3743" width="66" height="31" as="geometry" />
         </mxCell>
+        <mxCell id="2iba8URM4LscJczZnOEm-298" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2iba8URM4LscJczZnOEm-293" target="2iba8URM4LscJczZnOEm-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2iba8URM4LscJczZnOEm-293" value="部署" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1942" y="3744" width="50" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="2iba8URM4LscJczZnOEm-294" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1432" y="3334" width="602" height="180" as="geometry" />
+        <mxCell id="2iba8URM4LscJczZnOEm-295" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1522" y="4009" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2iba8URM4LscJczZnOEm-297" value="点击部署时，弹窗，要求操作人员&lt;div&gt;确认防火墙策略已开通后，&lt;/div&gt;&lt;div&gt;才能部署&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="2052" y="3789" width="325" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="2iba8URM4LscJczZnOEm-299" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2iba8URM4LscJczZnOEm-278" target="2iba8URM4LscJczZnOEm-297">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1939" y="4023" />
+              <mxPoint x="2231" y="4023" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2iba8URM4LscJczZnOEm-300" value="点击保存时，校验主机端口占用情况，&lt;div&gt;命名空间资源使用情况&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="2779" width="387" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="2iba8URM4LscJczZnOEm-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2iba8URM4LscJczZnOEm-234" target="2iba8URM4LscJczZnOEm-300">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1409" y="3019" />
+              <mxPoint x="1878" y="3019" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
