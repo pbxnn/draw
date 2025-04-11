@@ -1136,7 +1136,7 @@
           <mxGeometry x="2265" y="2008" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-130" value="（下拉框选择）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2837" y="2007" width="551" height="60" as="geometry" />
+          <mxGeometry x="2837" y="2007" width="579" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-131" value="网格域" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2837" y="2007" width="120" height="60" as="geometry" />
@@ -1181,7 +1181,7 @@
           <mxGeometry x="2392" y="2359" width="1015" height="117" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-161" value="（选择网格域后，自动生成环境变量，可修改）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2264" y="2074" width="1126" height="63" as="geometry" />
+          <mxGeometry x="2264" y="2074" width="1154" height="63" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-162" value="环境变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2264" y="2075" width="120" height="62" as="geometry" />
