@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.9" pages="2">
   <diagram name="第 1 页" id="9Li6IN2-fdfVNfoZi-YO">
-    <mxGraphModel dx="2924" dy="2709" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="4360" dy="3633" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1668,9 +1668,6 @@
         </mxCell>
         <mxCell id="2iba8URM4LscJczZnOEm-293" value="部署" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1942" y="3744" width="50" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="2iba8URM4LscJczZnOEm-295" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1522" y="4009" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2iba8URM4LscJczZnOEm-297" value="点击部署时，弹窗，要求操作人员&lt;div&gt;确认防火墙策略已开通后，&lt;/div&gt;&lt;div&gt;才能部署&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fontColor=#FF6666;" vertex="1" parent="1">
           <mxGeometry x="2052" y="3789" width="325" height="187" as="geometry" />
