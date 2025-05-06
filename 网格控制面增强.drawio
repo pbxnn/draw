@@ -3528,13 +3528,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-21" value="网格DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-200" y="-1030" width="100" height="470" as="geometry" />
+          <mxGeometry x="-250" y="-1030" width="100" height="470" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kor60aOyQHupvOrAijGe-21">
           <mxGeometry x="45" y="195" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-24" value="网格consul" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-360" y="-1030" width="100" height="470" as="geometry" />
+          <mxGeometry x="-380" y="-1030" width="100" height="470" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kor60aOyQHupvOrAijGe-24">
           <mxGeometry x="45" y="170" width="10" height="30" as="geometry" />
@@ -3576,6 +3576,20 @@
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-46" value="查询域内所有系统的上游调用方" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Kor60aOyQHupvOrAijGe-45">
           <mxGeometry x="-0.3298" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6j16NRPietcyYHqtBitN-1" value="配置中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-1030" width="100" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="6j16NRPietcyYHqtBitN-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6j16NRPietcyYHqtBitN-1">
+          <mxGeometry x="45" y="260" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6j16NRPietcyYHqtBitN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="Kor60aOyQHupvOrAijGe-6" target="6j16NRPietcyYHqtBitN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6j16NRPietcyYHqtBitN-4" value="查询网格基础服务IP信息、paas IP大端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6j16NRPietcyYHqtBitN-3">
+          <mxGeometry x="-0.351" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
