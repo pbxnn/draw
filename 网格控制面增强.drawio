@@ -3496,7 +3496,7 @@
           <mxGeometry x="45" y="90" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-3" value="网格自服务&lt;div&gt;后端&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-630" y="-1030" width="100" height="470" as="geometry" />
+          <mxGeometry x="-630" y="-1030" width="100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kor60aOyQHupvOrAijGe-3">
           <mxGeometry x="45" y="90" width="10" height="60" as="geometry" />
@@ -3508,7 +3508,7 @@
           <mxGeometry x="45" y="270" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-12" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-800" y="-1030" width="100" height="470" as="geometry" />
+          <mxGeometry x="-800" y="-1030" width="100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kor60aOyQHupvOrAijGe-12">
           <mxGeometry x="45" y="90" width="10" height="60" as="geometry" />
@@ -3528,13 +3528,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-21" value="网格DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-250" y="-1030" width="100" height="470" as="geometry" />
+          <mxGeometry x="-250" y="-1030" width="100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kor60aOyQHupvOrAijGe-21">
           <mxGeometry x="45" y="195" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-24" value="网格consul" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-380" y="-1030" width="100" height="470" as="geometry" />
+          <mxGeometry x="-380" y="-1030" width="100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="Kor60aOyQHupvOrAijGe-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kor60aOyQHupvOrAijGe-24">
           <mxGeometry x="45" y="170" width="10" height="30" as="geometry" />
@@ -3580,7 +3580,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6j16NRPietcyYHqtBitN-1" value="配置中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-130" y="-1030" width="100" height="470" as="geometry" />
+          <mxGeometry x="-130" y="-1030" width="100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="6j16NRPietcyYHqtBitN-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="6j16NRPietcyYHqtBitN-1">
           <mxGeometry x="45" y="260" width="10" height="30" as="geometry" />
