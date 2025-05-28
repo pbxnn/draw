@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.3.0" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.9" pages="13">
   <diagram name="原型图" id="9Li6IN2-fdfVNfoZi-YO">
-    <mxGraphModel dx="1985" dy="2244" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
+    <mxGraphModel dx="3433" dy="3031" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,20 +24,17 @@
         <mxCell id="je_rRdqIXx3PYmjw4o95-134" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-535" y="3672" width="1153" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-129" value="隔离域&lt;br&gt;&lt;div&gt;（非信创、hcs、acs、jdg等）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-222" y="3699" width="178" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-130" value="平台类型&lt;br&gt;&lt;div&gt;（cattle、k8s）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-33" y="3698" width="160" height="120" as="geometry" />
+          <mxGeometry x="-153" y="3700" width="204" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-131" value="&lt;div&gt;域&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="148" y="3699" width="115" height="120" as="geometry" />
+        <mxCell id="je_rRdqIXx3PYmjw4o95-131" value="是否信创" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="68" y="3701" width="157" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="je_rRdqIXx3PYmjw4o95-132" value="系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="281" y="3698" width="115" height="120" as="geometry" />
+        <mxCell id="je_rRdqIXx3PYmjw4o95-132" value="域" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="243" y="3698" width="153" height="120" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-133" value="镜像版本" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="419" y="3699" width="115" height="120" as="geometry" />
+          <mxGeometry x="419" y="3699" width="162" height="120" as="geometry" />
         </mxCell>
         <mxCell id="je_rRdqIXx3PYmjw4o95-136" value="下拉框筛选" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-535" y="3673" width="120" height="180" as="geometry" />
@@ -142,7 +139,7 @@
           <mxGeometry x="292" y="4750" width="306" height="346" as="geometry" />
         </mxCell>
         <mxCell id="fTzek5KVbZ6QtDI809jQ-3" value="地域&lt;div&gt;（上海、北京）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-363" y="3700" width="129" height="120" as="geometry" />
+          <mxGeometry x="-363" y="3700" width="191" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-1" value="网格域&lt;div&gt;域内系统列表&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-158" y="4563" width="233" height="60" as="geometry" />
@@ -153,20 +150,14 @@
         <mxCell id="3pCu0jHaXcnlusvkuPWi-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=none;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-520" y="5597" width="1153" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="3pCu0jHaXcnlusvkuPWi-4" value="隔离域&lt;br&gt;&lt;div&gt;（非信创、hcs、acs、jdg）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="3pCu0jHaXcnlusvkuPWi-4" value="平台类型&lt;br&gt;&lt;div&gt;（cattle、k8s）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-196" y="5624" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3pCu0jHaXcnlusvkuPWi-5" value="平台类型&lt;br&gt;&lt;div&gt;（cattle、k8s）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-18" y="5623" width="160" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-6" value="&lt;div&gt;域&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="163" y="5624" width="115" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3pCu0jHaXcnlusvkuPWi-7" value="系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="296" y="5623" width="115" height="60" as="geometry" />
+          <mxGeometry x="-15" y="5624" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-8" value="镜像版本" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="434" y="5624" width="115" height="60" as="geometry" />
+          <mxGeometry x="125" y="5626" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3pCu0jHaXcnlusvkuPWi-9" value="下拉框筛选" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-520" y="5598" width="120" height="131" as="geometry" />
