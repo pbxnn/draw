@@ -134,6 +134,12 @@
             <mxPoint x="-419" y="-606" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2c4CWH6P1AbNS3VImMZC-1" value="数据采集存储" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-538" y="-1042" width="108" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2c4CWH6P1AbNS3VImMZC-2" value="数据查询展示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-408" y="-1041" width="108" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
