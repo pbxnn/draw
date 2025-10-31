@@ -238,14 +238,14 @@
             <mxPoint x="218" y="923" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NgSyf8qIBcioqC7GMqng-77" value="从注册中心查询数据&lt;div&gt;生成路由表&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="NgSyf8qIBcioqC7GMqng-72">
+        <mxCell id="NgSyf8qIBcioqC7GMqng-77" value="重新从注册中心查询数据&lt;div&gt;生成路由表&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="NgSyf8qIBcioqC7GMqng-72">
           <mxGeometry x="-0.3409" y="-1" relative="1" as="geometry">
-            <mxPoint x="5" y="8" as="offset" />
+            <mxPoint x="16" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NgSyf8qIBcioqC7GMqng-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="NgSyf8qIBcioqC7GMqng-70">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="281" y="965" as="sourcePoint" />
+            <mxPoint x="306" y="965" as="sourcePoint" />
             <mxPoint x="381" y="948" as="targetPoint" />
           </mxGeometry>
         </mxCell>
