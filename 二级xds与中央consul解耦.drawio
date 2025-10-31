@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="n1fxwjfjKRrFfD9Wi5qL">
-    <mxGraphModel dx="526" dy="358" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -319,7 +319,7 @@
         <mxCell id="Lw0Le1KQJJClJWxcYFCg-77" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" vertex="1" parent="1">
           <mxGeometry x="1074" y="764" width="335" height="151" as="geometry" />
         </mxCell>
-        <mxCell id="Lw0Le1KQJJClJWxcYFCg-78" value="收益点：&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;随着网格规模增长，目前已有200+二级路由更新服务，每次更新会对一级注册中心产生大量请求，改造后可显著减少一级注册中心请求量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;监听建立之后，若一级注册中心故障，若业务系统变更，可依赖本地缓存生成路由表，不阻塞业务变更，不影响系统间调用&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;约束条件：&lt;/div&gt;&lt;div&gt;1. 一级注册中心故障时，网格基础服务及gateway不能变更，否则将影响路由表下发，及跨系统请求&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Lw0Le1KQJJClJWxcYFCg-78" value="&lt;div&gt;关键点说明：&lt;/div&gt;&lt;div&gt;1. 网格基础服务及gateway的变更为低频操作，生成路由表时大量针对一级注册中心的请求可以被本地缓存替代&lt;/div&gt;&lt;div&gt;2. 在生成路由表前，本地缓存已更新，可以认为从缓存取到的即为最新数据&lt;/div&gt;&lt;div&gt;3. 生成路由表时，优先查询本地缓存，若查询为空或失败，则降级查询注册中心，若再次失败，则放弃此次更新&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;收益点：&lt;div&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;随着网格规模增长，目前已有200+二级路由更新服务，每次更新会对一级注册中心产生大量请求，改造后可显著减少一级注册中心请求量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;监听建立之后，若一级注册中心故障，若业务系统变更，可依赖本地缓存生成路由表，不阻塞业务变更，不影响系统间调用&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;约束条件：&lt;/div&gt;&lt;div&gt;1. 一级注册中心故障时，网格基础服务及gateway不能变更，否则将影响路由表下发，及跨系统请求&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="805" width="863" height="170" as="geometry" />
         </mxCell>
       </root>
