@@ -173,10 +173,10 @@
             <mxPoint x="155" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NgSyf8qIBcioqC7GMqng-40" value="建立监听" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="NgSyf8qIBcioqC7GMqng-40" value="1. 建立监听" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="29" y="625" width="103" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="NgSyf8qIBcioqC7GMqng-42" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;校验是否更新&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="NgSyf8qIBcioqC7GMqng-42" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. 校验是否更新&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="29" y="754" width="103" height="43" as="geometry" />
         </mxCell>
         <mxCell id="NgSyf8qIBcioqC7GMqng-43" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;本地缓存&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
@@ -204,8 +204,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NgSyf8qIBcioqC7GMqng-56" value="生成路由表并下发" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="29" y="948" width="103" height="43" as="geometry" />
+        <mxCell id="NgSyf8qIBcioqC7GMqng-56" value="3. 生成路由表并下发" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="18" y="948" width="118" height="43" as="geometry" />
         </mxCell>
         <mxCell id="NgSyf8qIBcioqC7GMqng-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NgSyf8qIBcioqC7GMqng-57" target="NgSyf8qIBcioqC7GMqng-43">
           <mxGeometry relative="1" as="geometry">
@@ -238,7 +238,7 @@
             <mxPoint x="218" y="923" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NgSyf8qIBcioqC7GMqng-77" value="从注册中心查询数据&lt;div&gt;生成路由表&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NgSyf8qIBcioqC7GMqng-72">
+        <mxCell id="NgSyf8qIBcioqC7GMqng-77" value="从注册中心查询数据&lt;div&gt;生成路由表&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="NgSyf8qIBcioqC7GMqng-72">
           <mxGeometry x="-0.3409" y="-1" relative="1" as="geometry">
             <mxPoint x="5" y="8" as="offset" />
           </mxGeometry>
