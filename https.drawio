@@ -1,123 +1,123 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.0.2">
   <diagram name="第 1 页" id="7oSeuTdKWdn8MUc_6Nh5">
-    <mxGraphModel dx="1351" dy="871" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="1017" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-43" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-43" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="20" y="20" width="150" height="1267" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-44" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-44" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="391" y="20" width="150" height="1267" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-45" value="ClientHello&#xa;（版本、加密套件、ClientRandom）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-45" value="ClientHello&#xa;（版本、加密套件、ClientRandom）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="289" y="203" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-46" value="ServerHello&#xa;（版本、加密套件、ServerRandom）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-46" value="ServerHello&#xa;（版本、加密套件、ServerRandom）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="292" y="282" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-47" value="Certificate&#xa;（服务器证书链）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-47" value="Certificate&#xa;（服务器证书链）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="292" y="349" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-48" value="CertificateRequest&#xa;（请求客户端证书）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-48" value="CertificateRequest&#xa;（请求客户端证书）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="292" y="416" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-49" value="ServerHelloDone" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-49" value="ServerHelloDone" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="292" y="464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-50" value="Certificate&#xa;（客户端证书链）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-50" value="Certificate&#xa;（客户端证书链）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="289" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-51" value="ClientKeyExchange&#xa;（用服务器公钥加密的PreMasterSecret）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-51" value="ClientKeyExchange&#xa;（用服务器公钥加密的PreMasterSecret）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="289" y="659" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-52" value="CertificateVerify&#xa;（用客户端私钥签名的握手消息，关键步骤）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontStyle=1;strokeColor=#FF6666;fontColor=#FF6666;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-52" value="CertificateVerify&#xa;（用客户端私钥签名的握手消息，关键步骤）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontStyle=1;strokeColor=#FF6666;fontColor=#FF6666;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="289" y="726" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-53" value="ChangeCipherSpec" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-53" value="ChangeCipherSpec" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="289" y="831" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-54" value="Finished&#xa;（加密的握手消息验证码）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-54" value="Finished&#xa;（加密的握手消息验证码）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="289" y="898" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-55" value="ChangeCipherSpec" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-55" value="ChangeCipherSpec" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="292" y="954" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-56" value="Finished&#xa;（加密的握手消息验证码）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-56" value="Finished&#xa;（加密的握手消息验证码）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="292" y="1021" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-57" value="Application Data (Encrypted)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-57" value="Application Data (Encrypted)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="289" y="1126" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-58" value="Application Data (Encrypted)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-58" value="Application Data (Encrypted)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="292" y="1182" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-59" value="握手阶段 1: 协商与认证" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-59" value="握手阶段 1: 协商与认证" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="95" width="421" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-60" value="握手阶段 2: 客户端认证与密钥交换" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-60" value="握手阶段 2: 客户端认证与密钥交换" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="484" width="421" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-61" value="握手阶段 3: 切换密码规范与完成验证" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-61" value="握手阶段 3: 切换密码规范与完成验证" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="746" width="421" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-62" value="安全加密通信开始" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-62" value="安全加密通信开始" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="1041" width="421" height="49" as="geometry" />
         </mxCell>
         <mxCell id="hgCCKdQ4tdawAdYuNKmX-63" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
