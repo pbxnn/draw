@@ -1,471 +1,565 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.0.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="7oSeuTdKWdn8MUc_6Nh5">
-    <mxGraphModel dx="1577" dy="1417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="902" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-43" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=18;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="150" height="1267" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=18;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="客户端" vertex="1">
+          <mxGeometry height="1267" width="150" x="1539" y="1110" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-44" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=18;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="391" y="20" width="150" height="1267" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=18;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="服务器" vertex="1">
+          <mxGeometry height="1267" width="150" x="1910" y="1110" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-45" value="ClientHello&#xa;（版本、加密套件、ClientRandom）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-3" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="ClientHello&#xa;（版本、加密套件、ClientRandom）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="289" y="203" />
+              <mxPoint x="1808" y="1293" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-46" value="ServerHello&#xa;（版本、加密套件、ServerRandom）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-4" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="ServerHello&#xa;（版本、加密套件、ServerRandom）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="292" y="282" />
+              <mxPoint x="1811" y="1372" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-47" value="Certificate&#xa;（服务器证书链）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-5" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="Certificate&#xa;（服务器证书链）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="292" y="349" />
+              <mxPoint x="1811" y="1439" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-48" value="CertificateRequest&#xa;（请求客户端证书）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-6" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="CertificateRequest&#xa;（请求客户端证书）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="292" y="416" />
+              <mxPoint x="1811" y="1506" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-49" value="ServerHelloDone" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-7" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="ServerHelloDone">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="292" y="464" />
+              <mxPoint x="1811" y="1554" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-50" value="Certificate&#xa;（客户端证书链）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-8" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="Certificate&#xa;（客户端证书链）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="289" y="580" />
+              <mxPoint x="1808" y="1670" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-51" value="ClientKeyExchange&#xa;（用服务器公钥加密的PreMasterSecret）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-9" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="ClientKeyExchange&#xa;（用服务器公钥加密的PreMasterSecret）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="289" y="659" />
+              <mxPoint x="1808" y="1749" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-52" value="CertificateVerify&#xa;（用客户端私钥签名的握手消息，关键步骤）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontStyle=1;strokeColor=#FF6666;fontColor=#FF6666;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-10" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontStyle=1;strokeColor=#FF6666;fontColor=#FF6666;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="CertificateVerify&#xa;（用客户端私钥签名的握手消息，关键步骤）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="289" y="726" />
+              <mxPoint x="1808" y="1816" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-53" value="ChangeCipherSpec" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-11" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="ChangeCipherSpec">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="289" y="831" />
+              <mxPoint x="1808" y="1921" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-54" value="Finished&#xa;（加密的握手消息验证码）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-12" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="Finished&#xa;（加密的握手消息验证码）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="289" y="898" />
+              <mxPoint x="1808" y="1988" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-55" value="ChangeCipherSpec" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-13" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="ChangeCipherSpec">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="292" y="954" />
+              <mxPoint x="1811" y="2044" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-56" value="Finished&#xa;（加密的握手消息验证码）" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-14" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="Finished&#xa;（加密的握手消息验证码）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="292" y="1021" />
+              <mxPoint x="1811" y="2111" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-57" value="Application Data (Encrypted)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-43" target="hgCCKdQ4tdawAdYuNKmX-44">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-15" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="Application Data (Encrypted)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="289" y="1126" />
+              <mxPoint x="1808" y="2216" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-58" value="Application Data (Encrypted)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-44" target="hgCCKdQ4tdawAdYuNKmX-43">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-16" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="Application Data (Encrypted)">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="292" y="1182" />
+              <mxPoint x="1811" y="2272" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-59" value="握手阶段 1: 协商与认证" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="70" y="95" width="421" height="49" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-17" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" value="握手阶段 1: 协商与认证" vertex="1">
+          <mxGeometry height="49" width="421" x="1589" y="1185" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-60" value="握手阶段 2: 客户端认证与密钥交换" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="70" y="484" width="421" height="49" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-18" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" value="握手阶段 2: 客户端认证与密钥交换" vertex="1">
+          <mxGeometry height="49" width="421" x="1589" y="1574" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-61" value="握手阶段 3: 切换密码规范与完成验证" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="70" y="746" width="421" height="49" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-19" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" value="握手阶段 3: 切换密码规范与完成验证" vertex="1">
+          <mxGeometry height="49" width="421" x="1589" y="1836" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-62" value="安全加密通信开始" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="70" y="1041" width="421" height="49" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-20" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=18;fontStyle=1" value="安全加密通信开始" vertex="1">
+          <mxGeometry height="49" width="421" x="1589" y="2131" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-63" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FFF2CC;strokeColor=#d6b656;fontSize=13;opacity=60;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="442.31" width="444" height="285" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FFF2CC;strokeColor=#d6b656;fontSize=13;opacity=60;" value="" vertex="1">
+          <mxGeometry height="285" width="444" x="2760" y="1532.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-64" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="467.31" width="324" height="104" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="104" width="324" x="2779" y="1557.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-65" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FFF2CC;strokeColor=#d6b656;fontSize=13;opacity=60;" vertex="1" parent="1">
-          <mxGeometry x="754" y="442.31" width="476" height="284" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FFF2CC;strokeColor=#d6b656;fontSize=13;opacity=60;" value="" vertex="1">
+          <mxGeometry height="284" width="476" x="2273" y="1532.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-66" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="778" y="467.31" width="362" height="104" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="104" width="362" x="2297" y="1557.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-68" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="148" width="210" height="104" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="104" width="210" x="2669" y="1238" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-69" value="根证书私钥" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1182.5" y="188" width="145" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" value="根证书私钥" vertex="1">
+          <mxGeometry height="54" width="145" x="2701.5" y="1278" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-70" value="网格门户" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1007" y="280" width="156" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-27" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" value="网格门户" vertex="1">
+          <mxGeometry height="54" width="156" x="2526" y="1370" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-71" value="二级注册中心" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="970" y="485.31" width="137" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" value="二级注册中心" vertex="1">
+          <mxGeometry height="54" width="137" x="2489" y="1575.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-72" value="边车" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1012.5" y="631.31" width="124" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" value="边车" vertex="1">
+          <mxGeometry height="54" width="124" x="2531.5" y="1721.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-73" target="hgCCKdQ4tdawAdYuNKmX-72">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-30" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-109" value="系统内&lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102); font-size: 14px;&quot;&gt;双向&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-108">
-          <mxGeometry x="-0.0827" y="-2" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-31" connectable="0" parent="1BCCStvFINbOWOI_CK-O-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" value="系统内&lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102); font-size: 14px;&quot;&gt;双向&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;HTTPS" vertex="1">
+          <mxGeometry relative="1" x="-0.0827" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-73" value="网关" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="778" y="628.31" width="138" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" value="网关" vertex="1">
+          <mxGeometry height="54" width="138" x="2297" y="1718.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-75" target="hgCCKdQ4tdawAdYuNKmX-77">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-33" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;curved=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-118" value="下发根证书、&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;网格域B证书公钥、私钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-117">
-          <mxGeometry x="0.1062" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-34" connectable="0" parent="1BCCStvFINbOWOI_CK-O-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" value="下发根证书、&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;网格域B证书公钥、私钥" vertex="1">
+          <mxGeometry relative="1" x="0.1062" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-75" value="XDS Server" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1437" y="492.31" width="137" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" value="XDS Server" vertex="1">
+          <mxGeometry height="54" width="137" x="2956" y="1582.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-76" target="hgCCKdQ4tdawAdYuNKmX-77">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-36" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-120" value="系统内&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;双向&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-119">
-          <mxGeometry x="0.0136" y="2" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-37" connectable="0" parent="1BCCStvFINbOWOI_CK-O-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" value="系统内&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;双向&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;HTTPS" vertex="1">
+          <mxGeometry relative="1" x="0.0136" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-76" value="网关" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1256" y="631.31" width="124" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" value="网关" vertex="1">
+          <mxGeometry height="54" width="124" x="2775" y="1721.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-77" value="边车" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1492" y="633.31" width="138" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" value="边车" vertex="1">
+          <mxGeometry height="54" width="138" x="3011" y="1723.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-70" target="hgCCKdQ4tdawAdYuNKmX-71">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-40" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-27" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-28" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1052" y="349" />
+              <mxPoint x="2571" y="1439" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-98" value="将域A证书、私钥下发给&lt;div&gt;对应网格域的注册中心&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-79">
-          <mxGeometry x="-0.0589" y="13" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-41" connectable="0" parent="1BCCStvFINbOWOI_CK-O-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="将域A证书、私钥下发给&lt;div&gt;对应网格域的注册中心&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0589" y="13" as="geometry">
             <mxPoint x="9" y="-33" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-70" target="hgCCKdQ4tdawAdYuNKmX-104">
-          <mxGeometry x="-0.0031" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-42" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-27" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-60" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="1342" y="332" />
+              <mxPoint x="2861" y="1422" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-43" connectable="0" parent="1BCCStvFINbOWOI_CK-O-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="将域B证书、私钥下发给&lt;div&gt;对应网格域的注册中心&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1443" y="-15" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-105" value="将域B证书、私钥下发给&lt;div&gt;对应网格域的注册中心&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-80">
-          <mxGeometry x="-0.1443" y="-15" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-44" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-59" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;dashed=1;fontSize=13;labelBackgroundColor=none;" target="1BCCStvFINbOWOI_CK-O-29" value="下发根证书、&#xa;网格域A证书公钥、私钥">
+          <mxGeometry relative="1" x="0.5945" y="-1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-81" value="下发根证书、&#xa;网格域A证书公钥、私钥" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;dashed=1;fontSize=13;labelBackgroundColor=none;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-97" target="hgCCKdQ4tdawAdYuNKmX-72">
-          <mxGeometry x="0.5945" y="-1" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1058" y="584.31" />
+              <mxPoint x="2577" y="1674.31" />
             </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-84" value="下发根证书、&#xa;网格域B证书公钥、私钥" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;dashed=1;fontSize=13;labelBackgroundColor=none;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-75" target="hgCCKdQ4tdawAdYuNKmX-76">
-          <mxGeometry x="0.4697" y="-9" relative="1" as="geometry">
-            <Array as="points" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-45" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-35" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;dashed=1;fontSize=13;labelBackgroundColor=none;" target="1BCCStvFINbOWOI_CK-O-38" value="下发根证书、&#xa;网格域B证书公钥、私钥">
+          <mxGeometry relative="1" x="0.4697" y="-9" as="geometry">
             <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-90" value="系统间双向&#xa;HTTPS" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontSize=13;labelBackgroundColor=none;fontStyle=0" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-72" target="hgCCKdQ4tdawAdYuNKmX-76">
-          <mxGeometry x="-0.1887" y="15" relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-68">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-46" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-29" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontSize=13;labelBackgroundColor=none;fontStyle=0" target="1BCCStvFINbOWOI_CK-O-38" value="系统间双向&#xa;HTTPS">
+          <mxGeometry relative="1" x="-0.1887" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-47" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-94" value="生成各个网格域的私钥、&lt;div&gt;签发证书&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-93">
-          <mxGeometry x="-0.1351" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-48" connectable="0" parent="1BCCStvFINbOWOI_CK-O-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="生成各个网格域的私钥、&lt;div&gt;签发证书&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1351" as="geometry">
             <mxPoint x="14" y="67" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-75">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-49" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-35">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1508" y="-5" />
+              <mxPoint x="3027" y="1085" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-122" value="手动将根证书配置在&lt;div&gt;每个XDS-server节点的环境变量中&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-121">
-          <mxGeometry x="0.6385" y="-29" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-50" connectable="0" parent="1BCCStvFINbOWOI_CK-O-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="手动将根证书配置在&lt;div&gt;每个XDS-server节点的环境变量中&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.6385" y="-29" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-97">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-51" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;curved=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-124" value="手动将根证书配置在&lt;div&gt;每个XDS-server节点的环境变量中&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-123">
-          <mxGeometry x="0.2991" y="28" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-52" connectable="0" parent="1BCCStvFINbOWOI_CK-O-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="手动将根证书配置在&lt;div&gt;每个XDS-server节点的环境变量中&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2991" y="28" as="geometry">
             <mxPoint y="83" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-171" target="hgCCKdQ4tdawAdYuNKmX-70">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-53" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-126" value="手动将证书配置给&lt;div&gt;对应的网格域&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-125">
-          <mxGeometry x="0.0068" y="3" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-54" connectable="0" parent="1BCCStvFINbOWOI_CK-O-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="手动将证书配置给&lt;div&gt;对应的网格域&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0068" y="3" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-91" value="" style="shape=actor;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1065" y="-35" width="40" height="60" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-55" parent="1" style="shape=actor;whiteSpace=wrap;html=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="2584" y="1055" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-92" value="测试环境&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;paas容器&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1150" y="148" width="210" height="30" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-56" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=16;fontStyle=1" value="测试环境&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;paas容器&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="2669" y="1238" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;dashed=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-97" target="hgCCKdQ4tdawAdYuNKmX-73">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-57" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;dashed=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-107" value="下发根证书、&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;网格域A证书公钥、私钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-106">
-          <mxGeometry x="0.473" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-58" connectable="0" parent="1BCCStvFINbOWOI_CK-O-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" value="下发根证书、&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;网格域A证书公钥、私钥" vertex="1">
+          <mxGeometry relative="1" x="0.473" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-97" value="XDS Server" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="795" y="483.31" width="137" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-59" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" value="XDS Server" vertex="1">
+          <mxGeometry height="54" width="137" x="2314" y="1573.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-104" value="二级注册中心" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1268" y="492.31" width="137" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-60" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" value="二级注册中心" vertex="1">
+          <mxGeometry height="54" width="137" x="2787" y="1582.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-112" target="hgCCKdQ4tdawAdYuNKmX-73">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-61" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-115" value="外部请求&lt;div&gt;&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;单向&lt;/b&gt;&lt;/font&gt;HTTPS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-113">
-          <mxGeometry x="0.0702" y="-1" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-62" connectable="0" parent="1BCCStvFINbOWOI_CK-O-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="外部请求&lt;div&gt;&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;单向&lt;/b&gt;&lt;/font&gt;HTTPS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0702" y="-1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-112" target="hgCCKdQ4tdawAdYuNKmX-76">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-63" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fontSize=13;" target="1BCCStvFINbOWOI_CK-O-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-116" value="外部请求&lt;div&gt;&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;单向&lt;/b&gt;&lt;/font&gt;HTTPS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-114">
-          <mxGeometry x="0.027" y="-2" relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-64" connectable="0" parent="1BCCStvFINbOWOI_CK-O-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="外部请求&lt;div&gt;&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;单向&lt;/b&gt;&lt;/font&gt;HTTPS&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.027" y="-2" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-112" value="云桌面、NG、F5等" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1083" y="815.31" width="156" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-65" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" value="云桌面、NG、F5等" vertex="1">
+          <mxGeometry height="54" width="156" x="2602" y="1905.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-127" value="域A" style="whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1151" y="442.31" width="79" height="36" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-66" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="域A" vertex="1">
+          <mxGeometry height="36" width="79" x="2670" y="1532.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-128" value="域B" style="whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1606" y="442.31" width="79" height="36" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-67" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="域B" vertex="1">
+          <mxGeometry height="36" width="79" x="3125" y="1532.31" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-129" value="用户团队" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="533" y="2071" width="266" height="232" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-68" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="用户团队" vertex="1">
+          <mxGeometry height="232" width="266" x="2052" y="3161" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-130" value="服务网格团队" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1894" width="493" height="714" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-69" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="服务网格团队" vertex="1">
+          <mxGeometry height="714" width="493" x="1539" y="2984" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-131" value="密服平台团队" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="128" y="1308" width="275" height="512" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-70" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="密服平台团队" vertex="1">
+          <mxGeometry height="512" width="275" x="1647" y="2398" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-132" value="根证书私钥安全存储&#xa;云桌面内受信" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="164" y="1333" width="204" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-71" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="根证书私钥安全存储&#xa;云桌面内受信" vertex="1">
+          <mxGeometry height="78" width="204" x="1683" y="2423" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-133" value="证书生命周期管理&#xa;签发/记录/临期通知" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="163" y="1461" width="205" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-72" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="证书生命周期管理&#xa;签发/记录/临期通知" vertex="1">
+          <mxGeometry height="78" width="205" x="1682" y="2551" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-134" value="根证书轮换管理&#xa;确保新老证书互信" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="172" y="1589" width="188" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-73" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="根证书轮换管理&#xa;确保新老证书互信" vertex="1">
+          <mxGeometry height="78" width="188" x="1691" y="2679" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-135" value="提供证书查询API&#xa;服务网格调用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="176" y="1717" width="179" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-74" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="提供证书查询API&#xa;服务网格调用" vertex="1">
+          <mxGeometry height="78" width="179" x="1695" y="2807" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-136" value="证书配置门户&#xa;（根证书/团队证书）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="159" y="1919" width="212" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-75" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="证书配置门户&#xa;（根证书/团队证书）" vertex="1">
+          <mxGeometry height="78" width="212" x="1678" y="3009" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-137" value="证书信息与策略下发&#xa;（Gateway/边车）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="57" y="2377" width="204" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-76" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="证书信息与策略下发&#xa;（Gateway/边车）" vertex="1">
+          <mxGeometry height="78" width="204" x="1576" y="3467" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-138" value="TLS安全基准&#xa;（强制TLS 1.2+）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="67" y="2505" width="185" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-77" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="TLS安全基准&#xa;（强制TLS 1.2+）" vertex="1">
+          <mxGeometry height="78" width="185" x="1586" y="3595" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-139" value="基础设施层&#xa;mTLS连接保障" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="311" y="2377" width="162" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-78" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="基础设施层&#xa;mTLS连接保障" vertex="1">
+          <mxGeometry height="78" width="162" x="1830" y="3467" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-140" value="监控与故障排查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="306" y="2517" width="172" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-79" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="监控与故障排查" vertex="1">
+          <mxGeometry height="54" width="172" x="1825" y="3607" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-141" value="证书配置与更新" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="580" y="2096" width="172" height="54" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-80" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="证书配置与更新" vertex="1">
+          <mxGeometry height="54" width="172" x="2099" y="3186" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-142" value="HTTPS策略配置&#xa;（系统内/系统间）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="568" y="2200" width="196" height="78" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-81" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="HTTPS策略配置&#xa;（系统内/系统间）" vertex="1">
+          <mxGeometry height="78" width="196" x="2087" y="3290" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-143" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-132" target="hgCCKdQ4tdawAdYuNKmX-133">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-82" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-71" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-72" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-144" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-133" target="hgCCKdQ4tdawAdYuNKmX-134">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-83" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-72" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-73" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-145" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-134" target="hgCCKdQ4tdawAdYuNKmX-135">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-84" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-73" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-74" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-146" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-136" target="hgCCKdQ4tdawAdYuNKmX-137">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-85" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-75" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1;entryX=0.35;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-76" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="101" y="2034" />
-              <mxPoint x="101" y="2340" />
+              <mxPoint x="1620" y="3124" />
+              <mxPoint x="1620" y="3430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-147" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-137" target="hgCCKdQ4tdawAdYuNKmX-138">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-86" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-76" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-77" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-148" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-139" target="hgCCKdQ4tdawAdYuNKmX-140">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-87" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-78" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-79" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-149" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-141" target="hgCCKdQ4tdawAdYuNKmX-142">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-88" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-80" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-81" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-150" value="证书查询API" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-135" target="hgCCKdQ4tdawAdYuNKmX-136">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-89" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-74" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-75" value="证书查询API">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-151" value="证书更新通知" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0;entryY=0.18;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-136" target="hgCCKdQ4tdawAdYuNKmX-141">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-90" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-75" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0;entryY=0.18;rounded=0;" target="1BCCStvFINbOWOI_CK-O-80" value="证书更新通知">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="409" y="2034" />
-              <mxPoint x="409" y="2071" />
+              <mxPoint x="1928" y="3124" />
+              <mxPoint x="1928" y="3161" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-152" value="HTTPS配置请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.85;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-142" target="hgCCKdQ4tdawAdYuNKmX-137">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-91" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-81" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.85;entryY=0;rounded=0;" target="1BCCStvFINbOWOI_CK-O-76" value="HTTPS配置请求">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="666" y="2303" />
-              <mxPoint x="299" y="2340" />
+              <mxPoint x="2185" y="3393" />
+              <mxPoint x="1818" y="3430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-153" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1065" y="1706" width="807" height="675" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="542" width="807" x="2584" y="2796" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-154" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1155" y="1746" width="220" height="273" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="198" width="502" x="2854" y="2862" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-155" value="根证书配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1205" y="1786" width="120" height="60" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="根证书配置" vertex="1">
+          <mxGeometry height="60" width="120" x="2946" y="2903" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-156" value="一级注册中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1475" y="1754" width="220" height="211" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="根证书失效拦截策略配置" vertex="1">
+          <mxGeometry height="60" width="173.5" x="2930" y="2990" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-157" value="域/系统证书配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1205" y="1867" width="120" height="60" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="网格门户" vertex="1">
+          <mxGeometry height="33" width="84" x="2854" y="2864" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-158" value="网格门户" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1291" y="1746" width="84" height="33" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-98" connectable="0" parent="1" style="group;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="85" width="60" x="2678" y="2965" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-162" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="889" y="1786" width="60" height="85" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-99" parent="1BCCStvFINbOWOI_CK-O-98" style="shape=actor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="40" x="10" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-159" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="hgCCKdQ4tdawAdYuNKmX-162">
-          <mxGeometry x="10" width="40" height="60" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-100" parent="1BCCStvFINbOWOI_CK-O-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="网格部署" vertex="1">
+          <mxGeometry height="30" width="69" y="55" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-161" value="网格部署" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="hgCCKdQ4tdawAdYuNKmX-162">
-          <mxGeometry y="55" width="60" height="30" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="域、系统证书配置" vertex="1">
+          <mxGeometry height="60" width="170" x="3168" y="2903" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-163" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="880.5" y="1907" width="77" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-164" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="hgCCKdQ4tdawAdYuNKmX-163">
-          <mxGeometry x="18.5" width="40" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-165" value="产品团队部署" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="hgCCKdQ4tdawAdYuNKmX-163">
-          <mxGeometry y="55" width="77" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-166" value="系统内、系统间&lt;div&gt;HTTPS开关&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1208" y="1948" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-167" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1153" y="2113" width="230" height="168" as="geometry" />
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-168" value="二级注册中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="2135" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-169" value="XDS-server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1198" y="2206" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-170" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="698" y="406" as="sourcePoint" />
-            <mxPoint x="1747" y="406" as="targetPoint" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-108" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2136" y="1496" as="sourcePoint" />
+            <mxPoint x="3266" y="1496" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-171" value="网格部署" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1055" y="20" width="60" height="30" as="geometry" />
+        <mxCell id="1BCCStvFINbOWOI_CK-O-109" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="网格部署" vertex="1">
+          <mxGeometry height="30" width="60" x="2574" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-110" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font&gt;控&lt;/font&gt;&lt;div&gt;&lt;font&gt;制&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;面&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="229" width="73" x="2184" y="1218" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-111" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="运&lt;div&gt;行&lt;div&gt;面&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="229" width="73" x="2184" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="296" width="798" x="2588" y="2477" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="服务网格" vertex="1">
+          <mxGeometry height="60" width="120" x="2584" y="2796" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="密服平台" vertex="1">
+          <mxGeometry height="60" width="120" x="2588" y="2477" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="507" width="325" x="3412" y="2529" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="产品团队" vertex="1">
+          <mxGeometry height="60" width="120" x="3412" y="2529" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-117" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2430.5" y="3090" as="sourcePoint" />
+            <mxPoint x="3737" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-118" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font&gt;控&lt;/font&gt;&lt;div&gt;&lt;font&gt;制&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;面&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="564" width="73" x="2481.5" y="2500" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-119" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="运&lt;div&gt;行&lt;div&gt;面&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="225" width="73" x="2477" y="3110" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-120" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="根证书私钥安全存储" vertex="1">
+          <mxGeometry height="78" width="173" x="2594" y="2567" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-121" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="证书生命周期管理&#xa;签发/记录/临期通知" vertex="1">
+          <mxGeometry height="78" width="205" x="2785.5" y="2567" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-122" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="根证书轮换管理&#xa;（新老证书互信）" vertex="1">
+          <mxGeometry height="78" width="188" x="3006.5" y="2567" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-123" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="提供证书查询API" vertex="1">
+          <mxGeometry height="78" width="365" x="2816.5" y="2687" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-124" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="根证书内网受信" vertex="1">
+          <mxGeometry height="78" width="133" x="3220.5" y="2567" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-125" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="1BCCStvFINbOWOI_CK-O-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-126" connectable="0" parent="1BCCStvFINbOWOI_CK-O-125" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="查询证书" vertex="1">
+          <mxGeometry relative="1" x="0.0603" y="-1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-127" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="证书信息下发&#xa;（Gateway/边车）" vertex="1">
+          <mxGeometry height="78" width="204" x="3106.5" y="3110" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-128" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="TLS安全基准&#xa;（强制TLS 1.2+）" vertex="1">
+          <mxGeometry height="78" width="185" x="2597.5" y="3219" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-129" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="根证书缓存至一级注册中心" vertex="1">
+          <mxGeometry height="78" width="220" x="2592.5" y="3114" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-130" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="域证书、系统证书缓存至二级注册中心" vertex="1">
+          <mxGeometry height="78" width="216.5" x="2842" y="3110" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-131" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="系统内、系统间&lt;div&gt;HTTPS开关配置&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="164" x="3168.5" y="2990" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-136" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" target="1BCCStvFINbOWOI_CK-O-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3396" y="2642" />
+              <mxPoint x="3396" y="2500" />
+              <mxPoint x="2888" y="2500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-132" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="申请签发证书" vertex="1">
+          <mxGeometry height="78" width="188" x="3467" y="2603" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-137" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;curved=1;" target="1BCCStvFINbOWOI_CK-O-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3467" y="2666" />
+              <mxPoint x="2888" y="2666" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-133" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="关注证书临期通知&#xa;申请新证书" vertex="1">
+          <mxGeometry height="78" width="188" x="3467" y="2695" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-144" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" target="1BCCStvFINbOWOI_CK-O-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-134" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="配置/更新并启用证书" vertex="1">
+          <mxGeometry height="78" width="188" x="3469" y="2817" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-145" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" target="1BCCStvFINbOWOI_CK-O-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-135" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="控制https开关" vertex="1">
+          <mxGeometry height="78" width="188" x="3469" y="2909" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-140" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="单向、双向HTTPS&#xa;策略下发" vertex="1">
+          <mxGeometry height="78" width="220.5" x="2842" y="3226" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-142" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" target="1BCCStvFINbOWOI_CK-O-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-143" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" target="1BCCStvFINbOWOI_CK-O-96">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
