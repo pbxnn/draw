@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="7oSeuTdKWdn8MUc_6Nh5">
-    <mxGraphModel dx="902" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="520" dy="309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,10 +393,10 @@
         <mxCell id="1BCCStvFINbOWOI_CK-O-124" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="根证书内网受信" vertex="1">
           <mxGeometry height="78" width="133" x="3220.5" y="2567" as="geometry" />
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-125" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="1BCCStvFINbOWOI_CK-O-123">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-125" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;" target="1BCCStvFINbOWOI_CK-O-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-126" connectable="0" parent="1BCCStvFINbOWOI_CK-O-125" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="查询证书" vertex="1">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-126" connectable="0" parent="1BCCStvFINbOWOI_CK-O-125" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="查询根证书（&lt;div&gt;不包含私钥）&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0603" y="-1" as="geometry">
             <mxPoint x="-1" y="9" as="offset" />
           </mxGeometry>
@@ -459,6 +459,14 @@
         </mxCell>
         <mxCell id="1BCCStvFINbOWOI_CK-O-143" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" target="1BCCStvFINbOWOI_CK-O-96">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-146" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;" target="1BCCStvFINbOWOI_CK-O-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BCCStvFINbOWOI_CK-O-147" connectable="0" parent="1BCCStvFINbOWOI_CK-O-146" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="查询系统证书及私钥" vertex="1">
+          <mxGeometry relative="1" x="0.0239" y="-3" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
