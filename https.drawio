@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.0.2">
   <diagram name="第 1 页" id="7oSeuTdKWdn8MUc_6Nh5">
-    <mxGraphModel dx="1261" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="871" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,174 +120,199 @@
         <mxCell id="hgCCKdQ4tdawAdYuNKmX-62" value="安全加密通信开始" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
           <mxGeometry x="70" y="1041" width="421" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-63" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="766" y="2087" width="351" height="458" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-63" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="757" y="1860" width="444" height="285" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-64" value="控制平面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="792" y="2112" width="288" height="104" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-64" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="776" y="1885" width="324" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-65" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1860" width="476" height="685" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-65" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1860" width="476" height="284" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-66" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-66" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="294" y="1885" width="362" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-68" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1480" width="210" height="104" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-68" value="" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="664" y="1602" width="210" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-69" value="根证书私钥" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="652.5" y="1520" width="145" height="54" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-69" value="根证书私钥" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="696.5" y="1642" width="145" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-70" value="网格门户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="649" y="1683" width="156" height="54" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-70" value="网格门户" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="521" y="1734" width="156" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-71" value="二级注册中心" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-71" value="二级注册中心" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="486" y="1903" width="137" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-72" value="网关实例" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="517" y="2083" width="124" height="54" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-72" value="边车" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="528.5" y="2049" width="124" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-73" value="边车实例 A" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="407" y="2314" width="138" height="54" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-73" target="hgCCKdQ4tdawAdYuNKmX-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-74" value="边车实例 B" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="385" y="2466" width="138" height="54" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-109" value="系统内&lt;b&gt;&lt;font style=&quot;color: rgb(255, 102, 102); font-size: 14px;&quot;&gt;双向&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-108">
+          <mxGeometry x="-0.0827" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-75" value="XDS Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="906" y="2137" width="137" height="54" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-73" value="网关" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="294" y="2046" width="138" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-76" value="网关实例" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="944" y="2314" width="124" height="54" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-75" target="hgCCKdQ4tdawAdYuNKmX-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-77" value="边车实例 C" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="905" y="2466" width="138" height="54" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-118" value="下发根证书、&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;网格域B证书公钥、私钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-117">
+          <mxGeometry x="0.1062" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-70" target="hgCCKdQ4tdawAdYuNKmX-71">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-75" value="XDS Server" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="953" y="1910" width="137" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-76" target="hgCCKdQ4tdawAdYuNKmX-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-120" value="系统内&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;双向&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-119">
+          <mxGeometry x="0.0136" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-76" value="网关" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="772" y="2049" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-77" value="边车" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1008" y="2051" width="138" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-70" target="hgCCKdQ4tdawAdYuNKmX-71">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="566" y="1803" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-98" value="将证书、私钥下发给对应网格域的注册中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-79">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-98" value="将域A证书、私钥下发给&lt;div&gt;对应网格域的注册中心&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-79">
           <mxGeometry x="-0.0589" y="13" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-80" value="上传/配置&#xa;集群证书" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-70" target="hgCCKdQ4tdawAdYuNKmX-75">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-70" target="hgCCKdQ4tdawAdYuNKmX-104">
+          <mxGeometry x="-0.0031" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="974" y="1762" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-81" value="下发根证书、&#xa;网格域证书公钥、私钥" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-97" target="hgCCKdQ4tdawAdYuNKmX-72">
-          <mxGeometry x="0.1535" y="-10" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="539" y="2022" />
+              <mxPoint x="856" y="1786" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-82" value="下发根证书、&#xa;网格域证书公钥、私钥" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.41;entryY=0;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-97" target="hgCCKdQ4tdawAdYuNKmX-73">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="442" y="2265" />
-            </Array>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-105" value="将域B证书、私钥下发给&lt;div&gt;对应网格域的注册中心&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-80">
+          <mxGeometry x="-0.1443" y="-15" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-83" value="下发根证书、&#xa;网格域证书公钥、私钥" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.25;entryY=0;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-97" target="hgCCKdQ4tdawAdYuNKmX-74">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-81" value="下发根证书、&#xa;网格域A证书公钥、私钥" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;dashed=1;fontSize=13;labelBackgroundColor=none;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-97" target="hgCCKdQ4tdawAdYuNKmX-72">
+          <mxGeometry x="0.5945" y="-1" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="356" y="1989" />
-              <mxPoint x="356" y="2417" />
+              <mxPoint x="574" y="2002" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-84" value="通过xDS下发&#xa;工作负载证书" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-75" target="hgCCKdQ4tdawAdYuNKmX-76">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1006" y="2216" />
-            </Array>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-84" value="下发根证书、&#xa;网格域B证书公钥、私钥" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;dashed=1;fontSize=13;labelBackgroundColor=none;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-75" target="hgCCKdQ4tdawAdYuNKmX-76">
+          <mxGeometry x="0.4697" y="-9" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-85" value="通过xDS下发&#xa;工作负载证书" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.21;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-75" target="hgCCKdQ4tdawAdYuNKmX-77">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-90" value="系统间&#xa;双向HTTPS" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;fontSize=13;labelBackgroundColor=none;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-72" target="hgCCKdQ4tdawAdYuNKmX-76">
+          <mxGeometry x="-0.1887" y="15" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="861" y="2216" />
-              <mxPoint x="861" y="2417" />
+              <mxPoint x="727" y="2102" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-86" value="双向HTTPS&#xa;基于证书认证" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.61;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-72" target="hgCCKdQ4tdawAdYuNKmX-73">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="518" y="2216" />
-              <mxPoint x="518" y="2265" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-87" value="双向HTTPS&#xa;基于证书认证" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.55;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-73" target="hgCCKdQ4tdawAdYuNKmX-74">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="476" y="2417" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-88" value="双向HTTPS&#xa;基于证书认证" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.95;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-72" target="hgCCKdQ4tdawAdYuNKmX-74">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="628" y="2417" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-89" value="双向HTTPS&#xa;基于证书认证" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.58;entryY=0;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-76" target="hgCCKdQ4tdawAdYuNKmX-77">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1006" y="2417" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-90" value="集群间&#xa;双向HTTPS" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0;entryY=0.23;rounded=0;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-72" target="hgCCKdQ4tdawAdYuNKmX-76">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="687" y="2216" />
-              <mxPoint x="687" y="2265" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-68">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-94" value="生成各个网格域的私钥、签发证书" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-93">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-94" value="生成各个网格域的私钥、&lt;div&gt;签发证书&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-93">
           <mxGeometry x="-0.1351" relative="1" as="geometry">
+            <mxPoint x="14" y="67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1022" y="1449" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-122" value="手动将根证书配置在&lt;div&gt;每个XDS-server节点的环境变量中&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-121">
+          <mxGeometry x="0.6385" y="-29" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-70">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-96" value="手动将证书配置给对应的网格域" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-95">
-          <mxGeometry x="-0.2982" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-124" value="手动将根证书配置在&lt;div&gt;每个XDS-server节点的环境变量中&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-123">
+          <mxGeometry x="0.2991" y="28" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-97">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-91" target="hgCCKdQ4tdawAdYuNKmX-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-100" value="手动将根证书配置在每个XDS-server节点的环境变量中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-99">
-          <mxGeometry x="-0.1996" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-126" value="手动将证书配置给&lt;div&gt;对应的网格域&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-125">
+          <mxGeometry x="0.0068" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-91" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1487" width="40" height="60" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-91" value="" style="shape=actor;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="579" y="1419" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-92" value="测试环境&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;paas容器&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1480" width="210" height="30" as="geometry" />
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-92" value="测试环境&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;paas容器&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="664" y="1602" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hgCCKdQ4tdawAdYuNKmX-97" value="XDS Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;dashed=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-97" target="hgCCKdQ4tdawAdYuNKmX-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-107" value="下发根证书、&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;网格域A证书公钥、私钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;labelBackgroundColor=none;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-106">
+          <mxGeometry x="0.473" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-97" value="XDS Server" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="311" y="1901" width="137" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-103" value="边车实例 B" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2547" width="475" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-104" value="二级注册中心" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="784" y="1910" width="137" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-112" target="hgCCKdQ4tdawAdYuNKmX-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-115" value="外部请求&lt;div&gt;&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;单向&lt;/b&gt;&lt;/font&gt;HTTPS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-113">
+          <mxGeometry x="0.0702" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fontSize=13;" edge="1" parent="1" source="hgCCKdQ4tdawAdYuNKmX-112" target="hgCCKdQ4tdawAdYuNKmX-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-116" value="外部请求&lt;div&gt;&lt;font style=&quot;font-size: 14px; color: rgb(255, 102, 102);&quot;&gt;&lt;b&gt;单向&lt;/b&gt;&lt;/font&gt;HTTPS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="hgCCKdQ4tdawAdYuNKmX-114">
+          <mxGeometry x="0.027" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-112" value="云桌面、NG、F5等" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="599" y="2233" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-127" value="域A" style="whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="667" y="1860" width="79" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hgCCKdQ4tdawAdYuNKmX-128" value="域B" style="whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="1860" width="79" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
