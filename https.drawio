@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="7oSeuTdKWdn8MUc_6Nh5">
-    <mxGraphModel dx="520" dy="309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="255" dy="138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -309,7 +309,7 @@
         <mxCell id="1BCCStvFINbOWOI_CK-O-67" parent="1" style="whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="域B" vertex="1">
           <mxGeometry height="36" width="79" x="3125" y="1532.31" as="geometry" />
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="542" width="807" x="2584" y="2796" as="geometry" />
         </mxCell>
         <mxCell id="1BCCStvFINbOWOI_CK-O-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;strokeColor=#6c8ebf;" value="" vertex="1">
@@ -351,13 +351,13 @@
         <mxCell id="1BCCStvFINbOWOI_CK-O-111" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="运&lt;div&gt;行&lt;div&gt;面&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="229" width="73" x="2184" y="1540" as="geometry" />
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
           <mxGeometry height="296" width="798" x="2588" y="2477" as="geometry" />
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="服务网格" vertex="1">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="服务网格" vertex="1">
           <mxGeometry height="60" width="120" x="2584" y="2796" as="geometry" />
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="密服平台" vertex="1">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="密服平台" vertex="1">
           <mxGeometry height="60" width="120" x="2588" y="2477" as="geometry" />
         </mxCell>
         <mxCell id="1BCCStvFINbOWOI_CK-O-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
@@ -467,6 +467,139 @@
           <mxGeometry relative="1" x="0.0239" y="-3" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="199" width="807" x="4065.5" y="1394" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="域、系统证书配置" vertex="1">
+          <mxGeometry height="60" width="170" x="4243" y="1405" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="296" width="798" x="4069.5" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="服务网格" vertex="1">
+          <mxGeometry height="60" width="120" x="4065.5" y="1394" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="密服平台" vertex="1">
+          <mxGeometry height="60" width="120" x="4069.5" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="682" width="325" x="4893.5" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="产品团队" vertex="1">
+          <mxGeometry height="60" width="120" x="4893.5" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-15" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3943" y="1480" as="sourcePoint" />
+            <mxPoint x="5249.5" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-16" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;font&gt;控&lt;/font&gt;&lt;div&gt;&lt;font&gt;制&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;面&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="362" width="73" x="3963" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-17" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="运&lt;div&gt;行&lt;div&gt;面&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="248" width="73" x="3963" y="1504" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="根证书私钥安全存储" vertex="1">
+          <mxGeometry height="78" width="173" x="4075.5" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="证书生命周期管理&#xa;签发/记录/临期通知" vertex="1">
+          <mxGeometry height="78" width="205" x="4267" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="根证书轮换管理&#xa;（新老证书互信）" vertex="1">
+          <mxGeometry height="78" width="188" x="4488" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="提供证书查询API" vertex="1">
+          <mxGeometry height="78" width="365" x="4298" y="1285" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="根证书内网受信" vertex="1">
+          <mxGeometry height="78" width="133" x="4702" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="证书信息下发&#xa;（Gateway、边车）" vertex="1">
+          <mxGeometry height="79.69" width="181" x="4257" y="1502.31" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="TLS安全基准&#xa;（强制TLS 1.2+）" vertex="1">
+          <mxGeometry height="78" width="185" x="4650" y="1504.31" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="系统证书缓存至二级注册中心" vertex="1">
+          <mxGeometry height="78" width="145" x="4089" y="1502.31" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="系统内、系统间&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193));&quot;&gt;HTTPS开关配置&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="333" x="4493" y="1405" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-30" edge="1" parent="1" source="55fz5o69lKO_kM-9n95W-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" target="55fz5o69lKO_kM-9n95W-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4949" y="1180" />
+              <mxPoint x="4877" y="1180" />
+              <mxPoint x="4877" y="1098" />
+              <mxPoint x="4369" y="1098" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="申请签发证书" vertex="1">
+          <mxGeometry height="53" width="188" x="4948.5" y="1149" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-32" edge="1" parent="1" source="55fz5o69lKO_kM-9n95W-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;curved=1;" target="55fz5o69lKO_kM-9n95W-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4949" y="1276" />
+              <mxPoint x="4369" y="1276" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="关注证书临期通知&#xa;申请新证书" vertex="1">
+          <mxGeometry height="78" width="188" x="4950.5" y="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-43" edge="1" parent="1" source="55fz5o69lKO_kM-9n95W-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;dashed=1;" target="55fz5o69lKO_kM-9n95W-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4951" y="1376" />
+              <mxPoint x="4413" y="1376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="配置/更新并启用证书" vertex="1">
+          <mxGeometry height="50" width="188" x="4948.5" y="1301" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-36" edge="1" parent="1" source="55fz5o69lKO_kM-9n95W-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" target="55fz5o69lKO_kM-9n95W-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-37" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="控制https开关" vertex="1">
+          <mxGeometry height="47" width="188" x="4954" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="单向、双向HTTPS&#xa;策略下发" vertex="1">
+          <mxGeometry height="78" width="176" x="4456" y="1504" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-41" edge="1" parent="1" source="55fz5o69lKO_kM-9n95W-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;dashed=1;" target="55fz5o69lKO_kM-9n95W-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-42" connectable="0" parent="55fz5o69lKO_kM-9n95W-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" value="查询系统证书及私钥" vertex="1">
+          <mxGeometry relative="1" x="0.0239" y="-3" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="132.69" width="807" x="4065.5" y="1618.31" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PaaS" vertex="1">
+          <mxGeometry height="60" width="120" x="4065.5" y="1618.31" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-48" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="基础镜像预置根证书" vertex="1">
+          <mxGeometry height="78" width="193" x="4209" y="1661.31" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-49" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="K8S编排注入根证书" vertex="1">
+          <mxGeometry height="78" width="185" x="4509" y="1661.31" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-50" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="升级边车、gateway&#xa;镜像版本" vertex="1">
+          <mxGeometry height="65" width="188" x="4962" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 51, 51); font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;或&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="4431" y="1688.31" as="geometry" />
+        </mxCell>
+        <mxCell id="55fz5o69lKO_kM-9n95W-52" parent="1" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="修改k8s编排&#xa;注入根证书" vertex="1">
+          <mxGeometry height="65" width="188" x="4962" y="1639" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
