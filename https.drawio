@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="7oSeuTdKWdn8MUc_6Nh5">
-    <mxGraphModel dx="255" dy="138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="377" dy="217" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,21 +10,22 @@
         <mxCell id="1BCCStvFINbOWOI_CK-O-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=18;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="服务器" vertex="1">
           <mxGeometry height="1267" width="150" x="1910" y="1110" as="geometry" />
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-3" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="ClientHello&#xa;（版本、加密套件、ClientRandom）">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-3" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="ClientHello&#xa;（版本、加密套件、Client随机数）">
+          <mxGeometry relative="1" x="0.0027" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="1808" y="1293" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-4" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="ServerHello&#xa;（版本、加密套件、ServerRandom）">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-4" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="ServerHello&#xa;（版本、加密套件、Server随机数）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1811" y="1372" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-5" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="Certificate&#xa;（服务器证书链）">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-5" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="Certificate&#xa;（服务器证书）">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1811" y="1439" />
@@ -32,7 +33,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1BCCStvFINbOWOI_CK-O-6" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="CertificateRequest&#xa;（请求客户端证书）">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry relative="1" x="0.0027" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="1811" y="1506" />
             </Array>
@@ -66,7 +68,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-11" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="ChangeCipherSpec">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-11" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-2" value="协商用对称密钥传输">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1808" y="1921" />
@@ -80,7 +82,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1BCCStvFINbOWOI_CK-O-13" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="ChangeCipherSpec">
+        <mxCell id="1BCCStvFINbOWOI_CK-O-13" edge="1" parent="1" source="1BCCStvFINbOWOI_CK-O-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=16;" target="1BCCStvFINbOWOI_CK-O-1" value="协商用对称密钥传输">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1811" y="2044" />
