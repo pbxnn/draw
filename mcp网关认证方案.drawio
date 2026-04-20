@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="v2hsfRa7gXxFo1c_jMZc">
-    <mxGraphModel dx="934" dy="610" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="610" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,16 +66,16 @@
           <mxGeometry height="30" width="120" x="48" y="39" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="运行态" vertex="1">
-          <mxGeometry height="30" width="120" x="54" y="329" as="geometry" />
+          <mxGeometry height="30" width="120" x="61" y="444" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="agent" vertex="1">
-          <mxGeometry height="300" width="100" x="58" y="381" as="geometry" />
+          <mxGeometry height="300" width="100" x="65" y="496" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-26" parent="Vr7ZYQnQsq7QcT0ujrnK-20" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="46" width="10" x="45" y="61" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="MCP网关" vertex="1">
-          <mxGeometry height="300" width="100" x="238" y="379" as="geometry" />
+          <mxGeometry height="300" width="100" x="245" y="494" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-23" parent="Vr7ZYQnQsq7QcT0ujrnK-21" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="52" width="10" x="45" y="56" as="geometry" />
@@ -117,22 +117,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="后端server" vertex="1">
-          <mxGeometry height="300" width="100" x="414" y="379" as="geometry" />
+          <mxGeometry height="300" width="100" x="421" y="494" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-33" parent="Vr7ZYQnQsq7QcT0ujrnK-22" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
           <mxGeometry height="49" width="10" x="43" y="237" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-24" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.56;exitY=0.243;exitDx=0;exitDy=0;exitPerimeter=0;" value="携带用户ID、secret请求认证接口">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="114" y="459" as="sourcePoint" />
-            <mxPoint x="282" y="454" as="targetPoint" />
+            <mxPoint x="121" y="574" as="sourcePoint" />
+            <mxPoint x="289" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-35" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-23" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="Vr7ZYQnQsq7QcT0ujrnK-26" value="校验用户及secret&lt;div&gt;成功后返回token&lt;/div&gt;">
           <mxGeometry relative="1" x="-0.0102" y="23" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="259" y="477" as="sourcePoint" />
-            <mxPoint x="191" y="480" as="targetPoint" />
+            <mxPoint x="266" y="592" as="sourcePoint" />
+            <mxPoint x="198" y="595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-36" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="Vr7ZYQnQsq7QcT0ujrnK-33">
@@ -156,6 +156,24 @@
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="配置mcp server信息" vertex="1">
           <mxGeometry height="60" width="120" x="514" y="194" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="AI门户：&lt;div&gt;1. 维护每个网关实例地址信息、和系统的对应关系&lt;/div&gt;&lt;div&gt;2. 维护用户和系统的关系&lt;/div&gt;&lt;div&gt;3. 用户选择系统后，调用网关控制台登陆接口，携带cookie，跳转到控制台页面&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="280" x="-89" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. MCP网关负责认证用户ID、secret，并颁发token&lt;br&gt;2. agent每次请求需要携带token&lt;br&gt;&lt;div&gt;3. 若后端server接口有鉴权，则需要agent在请求参数中携带相关鉴权信息&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="287" x="79" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="MCP网关：&lt;div&gt;1. 给每个系统部署一套MCP网关&lt;/div&gt;&lt;div&gt;2. 有独立的控制台，数据隔离&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="178" x="218" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-53" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Vr7ZYQnQsq7QcT0ujrnK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-50" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="系统管理员" vertex="1">
+          <mxGeometry height="60" width="30" x="-14" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="插件配置：&lt;div&gt;1. 各系统管理员自行配置允许访问的用户列表及secret&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;各系统管理员自行配置mcp server出入参转换模板&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="228" x="419" y="274" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
