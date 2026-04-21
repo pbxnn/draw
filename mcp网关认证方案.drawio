@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="v2hsfRa7gXxFo1c_jMZc">
-    <mxGraphModel dx="1734" dy="1271" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1568" dy="1163" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="103" width="513" x="1637" y="1012" as="geometry" />
+        </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="141" width="119" x="58" y="104" as="geometry" />
         </mxCell>
@@ -296,6 +299,63 @@
         </mxCell>
         <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-23" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="AI门户管理员" vertex="1">
           <mxGeometry height="60" width="30" x="1110" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="296" width="340" x="1280" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="API接口" vertex="1">
+          <mxGeometry height="82" width="120" x="1329" y="868" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-44" edge="1" parent="1" source="0jYzeJ2Ehw4HYuAYkjmJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="0jYzeJ2Ehw4HYuAYkjmJ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-45" edge="1" parent="1" source="0jYzeJ2Ehw4HYuAYkjmJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="0jYzeJ2Ehw4HYuAYkjmJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-46" edge="1" parent="1" source="0jYzeJ2Ehw4HYuAYkjmJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="0jYzeJ2Ehw4HYuAYkjmJ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-48" connectable="0" parent="0jYzeJ2Ehw4HYuAYkjmJ-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;以数据库授权信息为准&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新各系统MCP网关认证插件配置&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.5968" y="1" as="geometry">
+            <mxPoint x="25" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="定时任务" vertex="1">
+          <mxGeometry height="82" width="120" x="1477" y="868" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-33" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="OB数据库" vertex="1">
+          <mxGeometry height="80" width="96" x="1408" y="1007" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-35" edge="1" parent="1" source="0jYzeJ2Ehw4HYuAYkjmJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="0jYzeJ2Ehw4HYuAYkjmJ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-38" connectable="0" parent="0jYzeJ2Ehw4HYuAYkjmJ-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. 保存各系统网关信息&lt;div&gt;2. 保存各系统mcp服务&lt;/div&gt;&lt;div&gt;授权列表&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2328" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-34" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="平台超管" vertex="1">
+          <mxGeometry height="60" width="30" x="1110" y="879" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-36" edge="1" parent="1" source="0jYzeJ2Ehw4HYuAYkjmJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="0jYzeJ2Ehw4HYuAYkjmJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-39" edge="1" parent="1" source="0jYzeJ2Ehw4HYuAYkjmJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="0jYzeJ2Ehw4HYuAYkjmJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-47" connectable="0" parent="0jYzeJ2Ehw4HYuAYkjmJ-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="定时查询各系&lt;div&gt;统MCP server授权信息&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2385" as="geometry">
+            <mxPoint x="25" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="系统A&lt;div&gt;MCP网关&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1674" y="1027" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="系统B&lt;div&gt;MCP网关&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1832" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="系统C&lt;div&gt;MCP网关&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1990" y="1025" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
