@@ -272,7 +272,7 @@
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-80" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="Vr7ZYQnQsq7QcT0ujrnK-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-84" connectable="0" parent="Vr7ZYQnQsq7QcT0ujrnK-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="查询授权列表（每分钟）" vertex="1">
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-84" connectable="0" parent="Vr7ZYQnQsq7QcT0ujrnK-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="查询授权列表&lt;div&gt;查询网关信息列表&lt;/div&gt;&lt;div&gt;（每分钟）&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0227" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
