@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="v2hsfRa7gXxFo1c_jMZc">
-    <mxGraphModel dx="1957" dy="1417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1734" dy="1271" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,25 +181,28 @@
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AI门户" vertex="1">
           <mxGeometry height="60" width="120" x="1253" y="115" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-60" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="Vr7ZYQnQsq7QcT0ujrnK-55">
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-60" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="Vr7ZYQnQsq7QcT0ujrnK-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-61" connectable="0" parent="Vr7ZYQnQsq7QcT0ujrnK-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="给所负责系统&lt;div&gt;配置授权访问的用户列表&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0388" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-63" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-56" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="服务提供方&lt;div&gt;系统管理员&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="1042" y="115" as="geometry" />
+          <mxGeometry height="60" width="30" x="1123" y="-77" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-68" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Vr7ZYQnQsq7QcT0ujrnK-64" value="">
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-68" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.145;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;" target="Vr7ZYQnQsq7QcT0ujrnK-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-21" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0jYzeJ2Ehw4HYuAYkjmJ-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-62" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="OB数据库" vertex="1">
           <mxGeometry height="91" width="108" x="1259" y="254" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-64" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="mcp服务授权表结构" vertex="1">
-          <mxGeometry height="120" width="140" x="1243" y="416" as="geometry" />
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-64" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="mcp授权信息表" vertex="1">
+          <mxGeometry height="120" width="140" x="1086" y="409" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-65" parent="Vr7ZYQnQsq7QcT0ujrnK-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="服务提供方系统" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
@@ -240,19 +243,19 @@
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="系统A&lt;div&gt;MCP网关&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1539" y="112" as="geometry" />
         </mxCell>
-        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-74" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Vr7ZYQnQsq7QcT0ujrnK-55" value="">
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-74" edge="1" parent="1" source="Vr7ZYQnQsq7QcT0ujrnK-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="Vr7ZYQnQsq7QcT0ujrnK-55" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1313" y="-9" as="sourcePoint" />
             <mxPoint x="1313" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-75" connectable="0" parent="Vr7ZYQnQsq7QcT0ujrnK-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="查询自身被授权的系统列表及对应secret" vertex="1">
+        <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-75" connectable="0" parent="Vr7ZYQnQsq7QcT0ujrnK-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="查询自身被授权的&lt;div&gt;系统列表及对应secret&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0323" y="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="43" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-72" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="调用方用户" vertex="1">
-          <mxGeometry height="60" width="30" x="1298" y="-100" as="geometry" />
+          <mxGeometry height="60" width="30" x="1381" y="-77" as="geometry" />
         </mxCell>
         <mxCell id="Vr7ZYQnQsq7QcT0ujrnK-76" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -279,6 +282,20 @@
         </mxCell>
         <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="运行态" vertex="1">
           <mxGeometry height="60" width="120" x="1495" y="-182" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-20" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;mcp网关信息表&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;服务提供方系统&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;网关地址（http）&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;网关地址（https）&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;网关控制台地址&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;网格控制台账号&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;网关控制台密码（加密）&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="1272" y="399" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-24" edge="1" parent="1" source="0jYzeJ2Ehw4HYuAYkjmJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Vr7ZYQnQsq7QcT0ujrnK-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-27" connectable="0" parent="0jYzeJ2Ehw4HYuAYkjmJ-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="配置各系统&lt;div&gt;MCP网关信息&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0871" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-23" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="AI门户管理员" vertex="1">
+          <mxGeometry height="60" width="30" x="1110" y="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
