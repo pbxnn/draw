@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="v2hsfRa7gXxFo1c_jMZc">
-    <mxGraphModel dx="1383" dy="1042" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1734" dy="1271" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -519,12 +519,6 @@
         </mxCell>
         <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-129" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="配置C系统&lt;div&gt;MCP server信息&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="1859" y="1703" as="geometry" />
-        </mxCell>
-        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-151" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="邮箱服务" vertex="1">
-          <mxGeometry height="300" width="100" x="2039" y="2013" as="geometry" />
-        </mxCell>
-        <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-152" parent="0jYzeJ2Ehw4HYuAYkjmJ-151" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
-          <mxGeometry height="80" width="10" x="45" y="66" as="geometry" />
         </mxCell>
         <mxCell id="0jYzeJ2Ehw4HYuAYkjmJ-155" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="容器平台" vertex="1">
           <mxGeometry height="300" width="100" x="1309" y="2469" as="geometry" />
