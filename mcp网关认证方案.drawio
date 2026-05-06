@@ -1036,6 +1036,54 @@
         <mxCell id="HWBOvKo2Ojzi2W6OPEwO-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MCP调用审批" vertex="1">
           <mxGeometry height="60" width="196" x="-60" y="3597" as="geometry" />
         </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="602" width="678.5" x="-408" y="4301" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="133" width="527" x="-360.5" y="4447" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="调用方&lt;div&gt;（下拉框）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-332.5" y="4486" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="服务方系统&lt;div&gt;（下拉框）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-169.5" y="4486" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="审批状态&lt;div&gt;（下拉框）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1.5" y="4483.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;筛选条件区&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="527" x="-360.5" y="4447" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-135" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MCP调用申请" vertex="1">
+          <mxGeometry height="60" width="191" x="-335" y="4333" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-136" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="MCP调用审批" vertex="1">
+          <mxGeometry height="60" width="196" x="-62" y="4333" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-137" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="260" width="614.5" x="-360.5" y="4624" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-127" parent="HWBOvKo2Ojzi2W6OPEwO-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="260" width="614.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-128" parent="HWBOvKo2Ojzi2W6OPEwO-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;列表展示区&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-129" parent="HWBOvKo2Ojzi2W6OPEwO-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="调用方&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp; 服务方系统&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;审批状态&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;操作" vertex="1">
+          <mxGeometry height="26" width="614.5" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-130" parent="HWBOvKo2Ojzi2W6OPEwO-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;18100997&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;  &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;审核中&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;同意&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;拒绝" vertex="1">
+          <mxGeometry height="26" width="614.5" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-131" parent="HWBOvKo2Ojzi2W6OPEwO-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;18100997&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AIAP&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-132" parent="HWBOvKo2Ojzi2W6OPEwO-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CSM&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="HWBOvKo2Ojzi2W6OPEwO-133" parent="HWBOvKo2Ojzi2W6OPEwO-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CMC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" y="202" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
