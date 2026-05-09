@@ -1445,12 +1445,6 @@
         <mxCell id="ffZrptW9gAUkgOnGoHaB-4" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="3. 编辑MCP工具" vertex="1">
           <mxGeometry height="80" width="157" x="-1086" y="5987" as="geometry" />
         </mxCell>
-        <mxCell id="ffZrptW9gAUkgOnGoHaB-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="下拉框" vertex="1">
-          <mxGeometry height="37" width="218" x="-1304" y="6091" as="geometry" />
-        </mxCell>
-        <mxCell id="ffZrptW9gAUkgOnGoHaB-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="服务来源" vertex="1">
-          <mxGeometry height="30" width="60" x="-1395" y="6093" as="geometry" />
-        </mxCell>
         <mxCell id="ffZrptW9gAUkgOnGoHaB-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消" vertex="1">
           <mxGeometry height="30" width="65" x="-1111" y="6382" as="geometry" />
         </mxCell>
@@ -1492,20 +1486,6 @@
         </mxCell>
         <mxCell id="ffZrptW9gAUkgOnGoHaB-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="查询用户有权限的&lt;div&gt;系统列表接口&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-1249" y="6699" as="geometry" />
-        </mxCell>
-        <mxCell id="ffZrptW9gAUkgOnGoHaB-23" edge="1" parent="1" source="ffZrptW9gAUkgOnGoHaB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.383;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="ffZrptW9gAUkgOnGoHaB-20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-1195" y="6482" />
-              <mxPoint x="-972" y="6482" />
-            </Array>
-            <mxPoint x="-1249.5" y="6184" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ffZrptW9gAUkgOnGoHaB-55" connectable="0" parent="ffZrptW9gAUkgOnGoHaB-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="根据系统查询服务来源列表，&lt;div&gt;若该系统未部署MCP网关，&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.4443" y="15" as="geometry">
-            <mxPoint x="155" y="156" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="ffZrptW9gAUkgOnGoHaB-22" edge="1" parent="1" source="ffZrptW9gAUkgOnGoHaB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ffZrptW9gAUkgOnGoHaB-21">
           <mxGeometry relative="1" as="geometry" />
@@ -1596,6 +1576,37 @@
         </mxCell>
         <mxCell id="ffZrptW9gAUkgOnGoHaB-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="创建MCP服务接口" vertex="1">
           <mxGeometry height="60" width="120" x="-87.25" y="6696" as="geometry" />
+        </mxCell>
+        <mxCell id="ffZrptW9gAUkgOnGoHaB-85" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="177" width="492" x="-1408" y="6160" as="geometry" />
+        </mxCell>
+        <mxCell id="ffZrptW9gAUkgOnGoHaB-78" parent="ffZrptW9gAUkgOnGoHaB-85" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=0;" value="" vertex="1">
+          <mxGeometry height="177" width="492" as="geometry" />
+        </mxCell>
+        <mxCell id="ffZrptW9gAUkgOnGoHaB-79" parent="ffZrptW9gAUkgOnGoHaB-85" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;container=0;" value="&lt;b&gt;服务来源列表&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="492" as="geometry" />
+        </mxCell>
+        <mxCell id="ffZrptW9gAUkgOnGoHaB-80" parent="ffZrptW9gAUkgOnGoHaB-85" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=0;" value="类型&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp; 名称&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;来源地址&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;协议&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="492" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ffZrptW9gAUkgOnGoHaB-81" parent="ffZrptW9gAUkgOnGoHaB-85" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=0;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;固定地址&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC网关&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;  &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; 1.1.1.1:8080&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;HTTP&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="492" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="ffZrptW9gAUkgOnGoHaB-82" parent="ffZrptW9gAUkgOnGoHaB-85" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=0;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;D&lt;/span&gt;NS域名&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;网关F5域名&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; devc.clic:8080&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;HTTPS&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="492" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="ffZrptW9gAUkgOnGoHaB-86" edge="1" parent="1" source="ffZrptW9gAUkgOnGoHaB-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="ffZrptW9gAUkgOnGoHaB-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1162" y="6538" />
+              <mxPoint x="-958" y="6538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ffZrptW9gAUkgOnGoHaB-87" connectable="0" parent="ffZrptW9gAUkgOnGoHaB-86" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="根据系统，查询服务来源列表，&lt;div&gt;后端校验该系统是否部署了MCP网关&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0766" y="14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
