@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="v2hsfRa7gXxFo1c_jMZc">
-    <mxGraphModel dx="2637" dy="1338" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2898" dy="1509" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1224,121 +1224,121 @@
           <mxGeometry height="32" width="54" x="116" y="5553" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="462" width="518" x="-1021" y="5806" as="geometry" />
+          <mxGeometry height="462" width="518" x="-852" y="5957" as="geometry" />
         </mxCell>
-        <mxCell id="WkRDYUt-IXtMsleaMZry-57" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="1. 创建服务来源" vertex="1">
-          <mxGeometry height="80" width="157" x="-998" y="5836" as="geometry" />
+        <mxCell id="WkRDYUt-IXtMsleaMZry-57" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="1. 服务来源" vertex="1">
+          <mxGeometry height="80" width="157" x="-829" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-58" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="2. 创建MCP服务" vertex="1">
-          <mxGeometry height="80" width="157" x="-841" y="5836" as="geometry" />
+          <mxGeometry height="80" width="157" x="-672" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-59" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="3. 编辑MCP工具" vertex="1">
-          <mxGeometry height="80" width="157" x="-684" y="5836" as="geometry" />
+          <mxGeometry height="80" width="157" x="-515" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="固定地址 / DNS域名" vertex="1">
-          <mxGeometry height="37" width="218" x="-837" y="5940" as="geometry" />
+          <mxGeometry height="37" width="218" x="-668" y="6091" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="类型" vertex="1">
-          <mxGeometry height="30" width="60" x="-928" y="5942" as="geometry" />
+          <mxGeometry height="30" width="60" x="-759" y="6093" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="xxxx" vertex="1">
-          <mxGeometry height="37" width="218" x="-837" y="5996" as="geometry" />
+          <mxGeometry height="37" width="218" x="-668" y="6147" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="名称" vertex="1">
-          <mxGeometry height="30" width="60" x="-928" y="5998" as="geometry" />
+          <mxGeometry height="30" width="60" x="-759" y="6149" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1.1.1.1:8080" vertex="1">
-          <mxGeometry height="37" width="218" x="-837" y="6051" as="geometry" />
+          <mxGeometry height="37" width="218" x="-668" y="6202" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="地址&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2237%22%20width%3D%22218%22%20x%3D%22-890%22%20y%3D%225250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20parent%3D%221%22%20style%3D%22text%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3B%22%20value%3D%22%E7%B1%BB%E5%9E%8B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%2260%22%20x%3D%22-981%22%20y%3D%225252%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2237%22%20width%3D%22218%22%20x%3D%22-890%22%20y%3D%225250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20parent%3D%221%22%20style%3D%22text%3Bhtml%3D1%3BwhiteSpace%3Dwrap%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Brounded%3D0%3B%22%20value%3D%22%E7%B1%BB%E5%9E%8B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2230%22%20width%3D%2260%22%20x%3D%22-981%22%20y%3D%225252%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="-928" y="6053" as="geometry" />
+          <mxGeometry height="30" width="60" x="-759" y="6204" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HTTP" vertex="1">
-          <mxGeometry height="37" width="218" x="-837" y="6106" as="geometry" />
+          <mxGeometry height="37" width="218" x="-668" y="6257" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="协议" vertex="1">
-          <mxGeometry height="30" width="60" x="-928" y="6108" as="geometry" />
+          <mxGeometry height="30" width="60" x="-759" y="6259" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消" vertex="1">
-          <mxGeometry height="30" width="65" x="-709" y="6231" as="geometry" />
+          <mxGeometry height="30" width="65" x="-540" y="6382" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="下一步" vertex="1">
-          <mxGeometry height="30" width="65" x="-611" y="6231" as="geometry" />
+          <mxGeometry height="30" width="65" x="-442" y="6382" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="462" width="518" x="-432" y="5806" as="geometry" />
+          <mxGeometry height="462" width="518" x="-263" y="5957" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-71" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="1. 创建服务来源" vertex="1">
-          <mxGeometry height="80" width="157" x="-409" y="5836" as="geometry" />
+          <mxGeometry height="80" width="157" x="-240" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-72" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="2. 创建MCP服务" vertex="1">
-          <mxGeometry height="80" width="157" x="-252" y="5836" as="geometry" />
+          <mxGeometry height="80" width="157" x="-83" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-73" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="3. 编辑MCP工具" vertex="1">
-          <mxGeometry height="80" width="157" x="-95" y="5836" as="geometry" />
+          <mxGeometry height="80" width="157" x="74" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="37" width="218" x="-248" y="5940" as="geometry" />
+          <mxGeometry height="37" width="218" x="-79" y="6091" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="名称" vertex="1">
-          <mxGeometry height="30" width="60" x="-339" y="5942" as="geometry" />
+          <mxGeometry height="30" width="60" x="-170" y="6093" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="37" width="218" x="-248" y="6011" as="geometry" />
+          <mxGeometry height="37" width="218" x="-79" y="6162" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="描述" vertex="1">
-          <mxGeometry height="30" width="60" x="-339" y="6013" as="geometry" />
+          <mxGeometry height="30" width="60" x="-170" y="6164" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OpenAPI / 直接路由" vertex="1">
-          <mxGeometry height="37" width="218" x="-248" y="6078" as="geometry" />
+          <mxGeometry height="37" width="218" x="-79" y="6229" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="服务类型" vertex="1">
-          <mxGeometry height="30" width="60" x="-339" y="6080" as="geometry" />
+          <mxGeometry height="30" width="60" x="-170" y="6231" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="下拉框" vertex="1">
-          <mxGeometry height="37" width="218" x="-248" y="6141" as="geometry" />
+          <mxGeometry height="37" width="218" x="-79" y="6292" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="后端服务" vertex="1">
-          <mxGeometry height="30" width="60" x="-339" y="6143" as="geometry" />
+          <mxGeometry height="30" width="60" x="-170" y="6294" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消" vertex="1">
-          <mxGeometry height="30" width="65" x="-195" y="6231" as="geometry" />
+          <mxGeometry height="30" width="65" x="-26" y="6382" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="下一步" vertex="1">
-          <mxGeometry height="30" width="65" x="-22" y="6231" as="geometry" />
+          <mxGeometry height="30" width="65" x="147" y="6382" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="上一步" vertex="1">
-          <mxGeometry height="30" width="65" x="-109" y="6231" as="geometry" />
+          <mxGeometry height="30" width="65" x="60" y="6382" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="下拉框" vertex="1">
-          <mxGeometry height="37" width="218" x="-837" y="6161" as="geometry" />
+          <mxGeometry height="37" width="218" x="-668" y="6312" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="所属系统" vertex="1">
-          <mxGeometry height="30" width="60" x="-928" y="6163" as="geometry" />
+          <mxGeometry height="30" width="60" x="-759" y="6314" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="462" width="518" x="150.5" y="5806" as="geometry" />
+          <mxGeometry height="462" width="518" x="319.5" y="5957" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-89" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="1. 创建服务来源" vertex="1">
-          <mxGeometry height="80" width="157" x="173.5" y="5836" as="geometry" />
+          <mxGeometry height="80" width="157" x="342.5" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-90" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="2. 创建MCP服务" vertex="1">
-          <mxGeometry height="80" width="157" x="330.5" y="5836" as="geometry" />
+          <mxGeometry height="80" width="157" x="499.5" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-91" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="3. 编辑MCP工具" vertex="1">
-          <mxGeometry height="80" width="157" x="487.5" y="5836" as="geometry" />
+          <mxGeometry height="80" width="157" x="656.5" y="5987" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="260" width="281" x="334.5" y="5940" as="geometry" />
+          <mxGeometry height="260" width="281" x="503.5" y="6091" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="编辑YAML配置" vertex="1">
-          <mxGeometry height="30" width="92" x="211.5" y="5942" as="geometry" />
+          <mxGeometry height="30" width="92" x="380.5" y="6093" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="完成" vertex="1">
-          <mxGeometry height="30" width="65" x="560.5" y="6231" as="geometry" />
+          <mxGeometry height="30" width="65" x="729.5" y="6382" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="上一步" vertex="1">
-          <mxGeometry height="30" width="65" x="473.5" y="6231" as="geometry" />
+          <mxGeometry height="30" width="65" x="642.5" y="6382" as="geometry" />
         </mxCell>
         <mxCell id="WkRDYUt-IXtMsleaMZry-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" value="为系统申请调用权限" vertex="1">
           <mxGeometry height="39" width="140" x="390" y="3832" as="geometry" />
