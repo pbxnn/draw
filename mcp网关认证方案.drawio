@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="v2hsfRa7gXxFo1c_jMZc">
-    <mxGraphModel dx="5869" dy="2143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5276" dy="1756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1798,6 +1798,184 @@
         <mxCell id="1s3OhMAptrajEVwACr_H-99" connectable="0" parent="1s3OhMAptrajEVwACr_H-97" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="点击编辑MCP工具" vertex="1">
           <mxGeometry relative="1" x="0.4563" y="3" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-100" connectable="0" parent="1" style="group;opacity=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="871" width="823" x="-2812" y="9490" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-101" connectable="0" parent="1s3OhMAptrajEVwACr_H-100" style="group" value="" vertex="1">
+          <mxGeometry height="585" width="823" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-102" parent="1s3OhMAptrajEVwACr_H-101" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="585" width="823" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-103" parent="1s3OhMAptrajEVwACr_H-101" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="581.6417910447761" width="120" x="3" y="3.3582089552238807" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-106" parent="1s3OhMAptrajEVwACr_H-101" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="MCP调用权限" vertex="1">
+          <mxGeometry height="60" width="120" y="274.0000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-112" parent="1s3OhMAptrajEVwACr_H-101" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="467" width="678.5" x="133" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-118" parent="1s3OhMAptrajEVwACr_H-101" style="rounded=0;whiteSpace=wrap;html=1;" value="新建申请" vertex="1">
+          <mxGeometry height="32" width="63" x="210" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-119" parent="1s3OhMAptrajEVwACr_H-101" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="MCP调用申请" vertex="1">
+          <mxGeometry height="60" width="191" x="206" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-120" parent="1s3OhMAptrajEVwACr_H-101" style="rounded=1;whiteSpace=wrap;html=1;" value="MCP调用审批" vertex="1">
+          <mxGeometry height="60" width="196" x="479" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-137" connectable="0" parent="1s3OhMAptrajEVwACr_H-101" style="group" value="" vertex="1">
+          <mxGeometry height="260" width="614.5" x="160" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-138" parent="1s3OhMAptrajEVwACr_H-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="260" width="614.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-139" parent="1s3OhMAptrajEVwACr_H-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;列表展示区&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-140" parent="1s3OhMAptrajEVwACr_H-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="调用方&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp; 服务方系统&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;审批状态&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;操作" vertex="1">
+          <mxGeometry height="26" width="614.5" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-141" parent="1s3OhMAptrajEVwACr_H-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="18100997&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;  &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; 审核中&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-142" parent="1s3OhMAptrajEVwACr_H-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;18100997&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AIAP&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;    &lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-143" parent="1s3OhMAptrajEVwACr_H-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CSM&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;查看&lt;/span&gt;密钥" vertex="1">
+          <mxGeometry height="26" width="614.5" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-144" parent="1s3OhMAptrajEVwACr_H-137" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CMC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;查看&lt;/span&gt;密钥" vertex="1">
+          <mxGeometry height="26" width="614.5" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-147" connectable="0" parent="1" style="group;opacity=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="871" width="997.25" x="-2810" y="10146" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-148" connectable="0" parent="1s3OhMAptrajEVwACr_H-147" style="group" value="" vertex="1">
+          <mxGeometry height="585" width="997.25" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-149" parent="1s3OhMAptrajEVwACr_H-148" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="585" width="823" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-150" parent="1s3OhMAptrajEVwACr_H-148" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="581.6417910447761" width="120" x="3" y="3.3582089552238807" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-151" parent="1s3OhMAptrajEVwACr_H-148" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="MCP调用权限" vertex="1">
+          <mxGeometry height="60" width="120" y="274.0000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-121" parent="1s3OhMAptrajEVwACr_H-148" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="446" width="678.5" x="133" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-127" parent="1s3OhMAptrajEVwACr_H-148" style="rounded=1;whiteSpace=wrap;html=1;" value="MCP调用申请" vertex="1">
+          <mxGeometry height="60" width="191" x="206" y="111" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-128" parent="1s3OhMAptrajEVwACr_H-148" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="MCP调用审批" vertex="1">
+          <mxGeometry height="60" width="196" x="479" y="111" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-129" connectable="0" parent="1s3OhMAptrajEVwACr_H-148" style="group" value="" vertex="1">
+          <mxGeometry height="260" width="614.5" x="175.75" y="229" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-130" parent="1s3OhMAptrajEVwACr_H-129" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="260" width="614.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-131" parent="1s3OhMAptrajEVwACr_H-129" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;列表展示区&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-132" parent="1s3OhMAptrajEVwACr_H-129" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="调用方&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp; 服务方系统&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;审批状态&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;操作" vertex="1">
+          <mxGeometry height="26" width="614.5" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-133" parent="1s3OhMAptrajEVwACr_H-129" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;18100997&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;  &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;审核中&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;同意&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;拒绝" vertex="1">
+          <mxGeometry height="26" width="614.5" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-134" parent="1s3OhMAptrajEVwACr_H-129" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;18100997&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;AIAP&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-135" parent="1s3OhMAptrajEVwACr_H-129" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CSM&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-136" parent="1s3OhMAptrajEVwACr_H-129" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CMC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;DEVC&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;已通过&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-145" parent="1s3OhMAptrajEVwACr_H-148" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="仅系统超管有审核权限" vertex="1">
+          <mxGeometry height="116" width="188" x="809.25" y="311" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-146" edge="1" parent="1s3OhMAptrajEVwACr_H-148" source="1s3OhMAptrajEVwACr_H-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;curved=1;" target="1s3OhMAptrajEVwACr_H-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1144.25" y="-12.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-152" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="519" width="678.5" x="-1903.82" y="9527" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-154" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="选择调用方" vertex="1">
+          <mxGeometry height="80" width="249" x="-1831.32" y="9536" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-158" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="选择服务方" vertex="1">
+          <mxGeometry height="80" width="238" x="-1538.32" y="9536" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-161" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="513" width="678.5" x="-1165.32" y="9530" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-162" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="选择调用方" vertex="1">
+          <mxGeometry height="80" width="249" x="-1092.82" y="9539" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-163" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="下拉框，展示" vertex="1">
+          <mxGeometry height="60" width="120" x="-1083.82" y="9664" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-164" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="选择服务方" vertex="1">
+          <mxGeometry height="80" width="238" x="-799.8199999999999" y="9539" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-167" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="" vertex="1">
+          <mxGeometry height="172" width="614.5" x="-1136.82" y="9746" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-168" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" value="&lt;b&gt;MCP服务列表展示区&lt;/b&gt;" vertex="1">
+          <mxGeometry height="26" width="614.5" x="-1136.82" y="9746" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-169" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" value="MCP服务名&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;描述" vertex="1">
+          <mxGeometry height="26" width="614.5" x="-1136.82" y="9783" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-170" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;smart-park&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;智慧园区" vertex="1">
+          <mxGeometry height="26" width="614.5" x="-1136.82" y="9823" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-171" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" value="knowledge- platform&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;知识管理平台" vertex="1">
+          <mxGeometry height="26" width="614.5" x="-1136.82" y="9863" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-172" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="完成" vertex="1">
+          <mxGeometry height="30" width="65" x="-598.64" y="9982" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-173" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="上一步" vertex="1">
+          <mxGeometry height="30" width="65" x="-685.64" y="9982" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-174" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="取消" vertex="1">
+          <mxGeometry height="30" width="65" x="-1419.82" y="9995" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-175" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="下一步" vertex="1">
+          <mxGeometry height="30" width="65" x="-1321.82" y="9995" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-179" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="331" width="518" x="-1845.82" y="9633" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-180" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;CSM&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="129" width="196" x="-1817.8211111111113" y="9649" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-181" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;CMC&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="129" width="196" x="-1564.8211111111113" y="9649" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-182" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AIAP&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="129" width="196" x="-1817.8211111111113" y="9814" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-183" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;DEVC&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="129" width="196" x="-1564.8211111111113" y="9814" as="geometry" />
+        </mxCell>
+        <mxCell id="1s3OhMAptrajEVwACr_H-184" edge="1" parent="1" source="1s3OhMAptrajEVwACr_H-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="1s3OhMAptrajEVwACr_H-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1896" y="9698" />
+              <mxPoint x="-1896" y="9698" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
