@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="v2hsfRa7gXxFo1c_jMZc">
-    <mxGraphModel dx="5276" dy="1756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6936" dy="2840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1994,55 +1994,55 @@
           <mxGeometry height="78" width="286" x="-1980" y="11656" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="211" width="2180.5" x="-3059" y="11799" as="geometry" />
+          <mxGeometry height="211" width="2180.5" x="-3059" y="11775" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="防火墙策略" vertex="1">
-          <mxGeometry height="69" width="160" x="-3059" y="11799" as="geometry" />
+          <mxGeometry height="69" width="160" x="-3059" y="11775" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=0" value="源端说明&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;调用方智能体所在环境网段（如国寿龙虾）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MCP后端服务地址&lt;/div&gt;" vertex="1">
-          <mxGeometry height="138" width="391.5" x="-3020" y="11859" as="geometry" />
+          <mxGeometry height="138" width="391.5" x="-3020" y="11835" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=0" value="开通方向&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;正向&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;反向&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="220" x="-2411" y="11863" as="geometry" />
+          <mxGeometry height="120" width="220" x="-2411" y="11839" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=0" value="目的端说明&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MCP网关地址&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;MCP网关所在环境网段&lt;/div&gt;" vertex="1">
-          <mxGeometry height="138" width="220" x="-2182" y="11855" as="geometry" />
+          <mxGeometry height="138" width="220" x="-2182" y="11831" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=0" value="目的端所属系统&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AIAP&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;AIAP&lt;/div&gt;" vertex="1">
-          <mxGeometry height="125" width="220" x="-1947" y="11858" as="geometry" />
+          <mxGeometry height="125" width="220" x="-1947" y="11834" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=0" value="目的端地址&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.1.1.1,2.2.2.2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10.27.180.0/22,10.27.148.127-10.27.148.142&lt;/div&gt;" vertex="1">
-          <mxGeometry height="138" width="476" x="-1672" y="11860" as="geometry" />
+          <mxGeometry height="138" width="476" x="-1672" y="11836" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=0" value="目的端端口&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;19211,19213&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;29231&lt;/div&gt;" vertex="1">
-          <mxGeometry height="136" width="220" x="-1153" y="11860" as="geometry" />
+          <mxGeometry height="136" width="220" x="-1153" y="11836" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=0" value="源端地址&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;10.38.223.23&lt;/div&gt;" vertex="1">
-          <mxGeometry height="138" width="247.5" x="-2625" y="11855" as="geometry" />
+          <mxGeometry height="138" width="247.5" x="-2625" y="11831" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-22" edge="1" parent="1" source="sDfLcOHYuc6URfKH0312-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" target="sDfLcOHYuc6URfKH0312-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-19" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" value="1. 调用方智能体所在环境的地址空着&lt;div&gt;2. MCP后端服务地址从服务来源表获取&lt;/div&gt;" vertex="1">
-          <mxGeometry height="193" width="407" x="-2756" y="12067" as="geometry" />
+          <mxGeometry height="193" width="407" x="-2756" y="12043" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-31" edge="1" parent="1" source="sDfLcOHYuc6URfKH0312-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="sDfLcOHYuc6URfKH0312-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-24" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" value="1. MCP网关地址，从网关表获取&lt;div&gt;2. MCP网关所在环境网段，从配置中心获取&lt;/div&gt;" vertex="1">
-          <mxGeometry height="193" width="407" x="-1744" y="12073" as="geometry" />
+          <mxGeometry height="193" width="407" x="-1744" y="12049" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-26" edge="1" parent="1" source="sDfLcOHYuc6URfKH0312-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="sDfLcOHYuc6URfKH0312-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-25" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" value="固定文案" vertex="1">
-          <mxGeometry height="102" width="145" x="-2975" y="12084" as="geometry" />
+          <mxGeometry height="102" width="145" x="-2975" y="12060" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-28" edge="1" parent="1" source="sDfLcOHYuc6URfKH0312-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="sDfLcOHYuc6URfKH0312-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2073" y="12052" />
-              <mxPoint x="-2301" y="12052" />
+              <mxPoint x="-2073" y="12028" />
+              <mxPoint x="-2301" y="12028" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2052,19 +2052,19 @@
         <mxCell id="sDfLcOHYuc6URfKH0312-30" edge="1" parent="1" source="sDfLcOHYuc6URfKH0312-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="sDfLcOHYuc6URfKH0312-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2073" y="12052" />
-              <mxPoint x="-1837" y="12052" />
+              <mxPoint x="-2073" y="12028" />
+              <mxPoint x="-1837" y="12028" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-27" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" value="固定文案" vertex="1">
-          <mxGeometry height="102" width="145" x="-2164" y="12091" as="geometry" />
+          <mxGeometry height="102" width="145" x="-2164" y="12067" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-33" edge="1" parent="1" source="sDfLcOHYuc6URfKH0312-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="sDfLcOHYuc6URfKH0312-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sDfLcOHYuc6URfKH0312-32" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" value="1. MCP网关端口，从网关表获取&lt;div&gt;2. MCP后端服务端口，从服务来源获取&lt;/div&gt;" vertex="1">
-          <mxGeometry height="193" width="407" x="-1246.5" y="12073" as="geometry" />
+          <mxGeometry height="193" width="407" x="-1246.5" y="12049" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
